@@ -1,0 +1,18 @@
+{
+  "appointment_id": "0dd65678-ba31-459a-b72e-a8f132f08633",
+  "provider_id": "PROV0008",
+  "patient_id": "PAT000116",
+  "appointment_date": "2025-03-07",
+  "scheduled_time": "16:15:00",
+  "appointment_type": "Urgent Care",
+  "status": "Completed",
+  "wait_time_minutes": 13.0,
+  "duration_minutes": 54.0,
+  "device_type": "Desktop",
+  "operating_system": "macOS",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-03-07 15:29:00"
+}

@@ -1,0 +1,15 @@
+{
+  "feedback_id": "8288cf8d-716f-46fe-9e2d-f79c0c55e1a3",
+  "appointment_id": "8d1f0996-4558-40b3-a6bc-fbfd206960ac",
+  "patient_id": "PAT000294",
+  "provider_id": "PROV0001",
+  "feedback_date": "2024-03-24",
+  "provider_rating": 4,
+  "ease_of_use_rating": 5,
+  "audio_quality_rating": 3,
+  "video_quality_rating": 3,
+  "overall_satisfaction": 5,
+  "would_recommend": true,
+  "comments": "I appreciate the convenience of telemedicine.",
+  "timestamp": "2024-03-24 00:00:00"
+}

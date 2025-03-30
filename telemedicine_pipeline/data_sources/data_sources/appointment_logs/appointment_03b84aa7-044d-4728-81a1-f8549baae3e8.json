@@ -1,0 +1,18 @@
+{
+  "appointment_id": "03b84aa7-044d-4728-81a1-f8549baae3e8",
+  "provider_id": "PROV0047",
+  "patient_id": "PAT000391",
+  "appointment_date": "2025-03-20",
+  "scheduled_time": "11:45:00",
+  "appointment_type": "Urgent Care",
+  "status": "Cancelled",
+  "wait_time_minutes": 17.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Windows",
+  "browser": "Chrome",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-03-20 18:59:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "35003149-1767-43ad-a234-3e960ccf289f",
+  "provider_id": "PROV0040",
+  "patient_id": "PAT000340",
+  "appointment_date": "2024-11-04",
+  "scheduled_time": "09:15:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Cancelled",
+  "wait_time_minutes": 11.0,
+  "duration_minutes": NaN,
+  "device_type": "Laptop",
+  "operating_system": "macOS",
+  "browser": "Safari",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-11-04 21:10:00"
+}

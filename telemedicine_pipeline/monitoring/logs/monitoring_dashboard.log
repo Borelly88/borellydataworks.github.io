@@ -1,0 +1,13 @@
+2025-03-29 21:26:01,622 - telemedicine_monitoring_dashboard - INFO - Starting monitoring dashboard creation
+2025-03-29 21:26:01,622 - telemedicine_monitoring_dashboard - INFO - Connected to database: /home/ubuntu/telemedicine_pipeline/data_warehouse/telemedicine.db
+2025-03-29 21:26:01,622 - telemedicine_monitoring_dashboard - INFO - Creating database-based charts
+2025-03-29 21:26:03,557 - telemedicine_monitoring_dashboard - INFO - Created appointment status trend chart: /home/ubuntu/telemedicine_pipeline/monitoring/dashboard/appointment_status_trend_chart.png
+2025-03-29 21:26:04,536 - telemedicine_monitoring_dashboard - INFO - Created technical issues by device trend chart: /home/ubuntu/telemedicine_pipeline/monitoring/dashboard/technical_issues_by_device_trend_chart.png
+2025-03-29 21:26:05,343 - telemedicine_monitoring_dashboard - INFO - Created satisfaction by specialty chart: /home/ubuntu/telemedicine_pipeline/monitoring/dashboard/satisfaction_by_specialty_chart.png
+2025-03-29 21:26:05,343 - telemedicine_monitoring_dashboard - INFO - Creating alerts summary chart
+2025-03-29 21:26:05,344 - telemedicine_monitoring_dashboard - WARNING - No alert files found
+2025-03-29 21:26:05,344 - telemedicine_monitoring_dashboard - INFO - Creating metric charts
+2025-03-29 21:26:05,344 - telemedicine_monitoring_dashboard - INFO - Creating monitoring dashboard HTML
+2025-03-29 21:26:05,344 - telemedicine_monitoring_dashboard - INFO - Created monitoring dashboard HTML: /home/ubuntu/telemedicine_pipeline/monitoring/dashboard/monitoring_dashboard.html
+2025-03-29 21:26:05,344 - telemedicine_monitoring_dashboard - INFO - Monitoring dashboard creation complete! Dashboard available at: /home/ubuntu/telemedicine_pipeline/monitoring/dashboard/monitoring_dashboard.html
+2025-03-29 21:26:05,344 - telemedicine_monitoring_dashboard - INFO - Database connection closed

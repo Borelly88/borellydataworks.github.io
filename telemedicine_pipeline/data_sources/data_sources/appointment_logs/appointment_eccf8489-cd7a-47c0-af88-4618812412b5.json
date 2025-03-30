@@ -1,0 +1,18 @@
+{
+  "appointment_id": "eccf8489-cd7a-47c0-af88-4618812412b5",
+  "provider_id": "PROV0025",
+  "patient_id": "PAT000200",
+  "appointment_date": "2024-03-16",
+  "scheduled_time": "08:30:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 4.0,
+  "duration_minutes": 37.0,
+  "device_type": "Laptop",
+  "operating_system": "Windows",
+  "browser": "Safari",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Video Problems",
+  "timestamp": "2024-03-16 11:55:00"
+}

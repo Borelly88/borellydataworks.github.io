@@ -1,0 +1,18 @@
+{
+  "appointment_id": "4a99baf2-5191-487b-a02f-3338db1e6813",
+  "provider_id": "PROV0011",
+  "patient_id": "PAT000199",
+  "appointment_date": "2024-02-24",
+  "scheduled_time": "15:30:00",
+  "appointment_type": "Medication Review",
+  "status": "Rescheduled",
+  "wait_time_minutes": 6.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "macOS",
+  "browser": "Safari",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-02-24 11:49:00"
+}

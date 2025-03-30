@@ -1,0 +1,18 @@
+{
+  "appointment_id": "58eac8d6-fa5a-4366-8ae4-a13fb50dca65",
+  "provider_id": "PROV0046",
+  "patient_id": "PAT000208",
+  "appointment_date": "2025-01-17",
+  "scheduled_time": "11:45:00",
+  "appointment_type": "Medication Review",
+  "status": "Cancelled",
+  "wait_time_minutes": 14.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Safari",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-17 13:45:00"
+}

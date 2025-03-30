@@ -1,0 +1,18 @@
+{
+  "appointment_id": "e2e5da32-1c73-48d5-ba7c-0e205a30d785",
+  "provider_id": "PROV0020",
+  "patient_id": "PAT000137",
+  "appointment_date": "2024-05-08",
+  "scheduled_time": "08:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 18.0,
+  "duration_minutes": 30.0,
+  "device_type": "Tablet",
+  "operating_system": "iOS",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-05-08 16:18:00"
+}

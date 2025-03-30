@@ -1,0 +1,15 @@
+{
+  "feedback_id": "f530dde5-e264-4bab-af84-dc5f7f317d52",
+  "appointment_id": "13bd6e31-be6d-4832-a667-2c2f15b97a70",
+  "patient_id": "PAT000091",
+  "provider_id": "PROV0046",
+  "feedback_date": "2024-01-30",
+  "provider_rating": 3,
+  "ease_of_use_rating": 5,
+  "audio_quality_rating": 4,
+  "video_quality_rating": 4,
+  "overall_satisfaction": 2,
+  "would_recommend": false,
+  "comments": "I prefer in-person visits for better care.",
+  "timestamp": "2024-01-30 00:00:00"
+}

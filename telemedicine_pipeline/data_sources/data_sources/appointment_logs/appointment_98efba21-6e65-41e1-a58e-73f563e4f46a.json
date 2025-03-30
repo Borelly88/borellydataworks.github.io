@@ -1,0 +1,18 @@
+{
+  "appointment_id": "98efba21-6e65-41e1-a58e-73f563e4f46a",
+  "provider_id": "PROV0029",
+  "patient_id": "PAT000225",
+  "appointment_date": "2024-08-07",
+  "scheduled_time": "17:45:00",
+  "appointment_type": "Medication Review",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "Linux",
+  "browser": "Chrome",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2024-08-07 09:42:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "66b57fa8-5a44-409c-afb2-75cd38b110fd",
+  "provider_id": "PROV0034",
+  "patient_id": "PAT000335",
+  "appointment_date": "2024-07-08",
+  "scheduled_time": "08:00:00",
+  "appointment_type": "Follow-up",
+  "status": "Cancelled",
+  "wait_time_minutes": 9.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "macOS",
+  "browser": "Chrome",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-07-08 00:30:00"
+}

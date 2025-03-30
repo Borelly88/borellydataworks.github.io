@@ -1,0 +1,102 @@
+digraph G {
+  rankdir=LR;
+  node [shape=box, style=filled, fillcolor=lightblue, fontname="Arial"];
+  edge [fontname="Arial"];
+  
+  // Data Sources
+  subgraph cluster_0 {
+    label="Data Sources";
+    style=filled;
+    color=lightgrey;
+    fontname="Arial Bold";
+    
+    appointment_logs [label="Appointment Logs\n(External API)"];
+    patient_feedback [label="Patient Feedback\n(S3 JSON Files)"];
+    provider_data [label="Provider Data\n(RDS)"];
+  }
+  
+  // Ingestion Layer
+  subgraph cluster_1 {
+    label="Ingestion Layer";
+    style=filled;
+    color=lightgrey;
+    fontname="Arial Bold";
+    
+    kafka [label="Amazon MSK\n(Kafka)"];
+    airflow [label="Amazon MWAA\n(Airflow)"];
+    s3_connector [label="S3 Connector"];
+    api_connector [label="API Gateway"];
+  }
+  
+  // Processing Layer
+  subgraph cluster_2 {
+    label="Processing Layer";
+    style=filled;
+    color=lightgrey;
+    fontname="Arial Bold";
+    
+    glue [label="AWS Glue\n(ETL)"];
+    data_quality [label="Data Quality\nChecks"];
+    step_functions [label="AWS Step Functions\n(Orchestration)"];
+  }
+  
+  // Storage Layer
+  subgraph cluster_3 {
+    label="Storage Layer";
+    style=filled;
+    color=lightgrey;
+    fontname="Arial Bold";
+    
+    s3_raw [label="S3 Raw Data"];
+    s3_processed [label="S3 Processed Data"];
+    redshift [label="Amazon Redshift\n(Data Warehouse)"];
+  }
+  
+  // Analytics Layer
+  subgraph cluster_4 {
+    label="Analytics Layer";
+    style=filled;
+    color=lightgrey;
+    fontname="Arial Bold";
+    
+    quicksight [label="Amazon QuickSight\n(Dashboards)"];
+  }
+  
+  // Monitoring Layer
+  subgraph cluster_5 {
+    label="Monitoring Layer";
+    style=filled;
+    color=lightgrey;
+    fontname="Arial Bold";
+    
+    cloudwatch [label="Amazon CloudWatch"];
+    sns [label="Amazon SNS\n(Alerts)"];
+  }
+  
+  // Connections
+  appointment_logs -> api_connector;
+  patient_feedback -> s3_connector;
+  provider_data -> airflow;
+  
+  api_connector -> kafka;
+  s3_connector -> airflow;
+  
+  kafka -> s3_raw;
+  airflow -> glue;
+  
+  s3_raw -> glue;
+  glue -> data_quality;
+  data_quality -> s3_processed;
+  glue -> step_functions;
+  step_functions -> redshift;
+  s3_processed -> redshift;
+  
+  redshift -> quicksight;
+  
+  // Monitoring connections
+  kafka -> cloudwatch [style=dashed];
+  airflow -> cloudwatch [style=dashed];
+  glue -> cloudwatch [style=dashed];
+  redshift -> cloudwatch [style=dashed];
+  cloudwatch -> sns [style=dashed];
+}

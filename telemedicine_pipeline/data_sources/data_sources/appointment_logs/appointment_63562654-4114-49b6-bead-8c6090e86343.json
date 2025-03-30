@@ -1,0 +1,18 @@
+{
+  "appointment_id": "63562654-4114-49b6-bead-8c6090e86343",
+  "provider_id": "PROV0035",
+  "patient_id": "PAT000108",
+  "appointment_date": "2025-03-29",
+  "scheduled_time": "11:15:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 2.0,
+  "duration_minutes": 45.0,
+  "device_type": "Laptop",
+  "operating_system": "Windows",
+  "browser": "Chrome",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-03-29 21:24:00"
+}

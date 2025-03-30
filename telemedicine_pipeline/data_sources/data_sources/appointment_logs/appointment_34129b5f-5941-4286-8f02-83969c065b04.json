@@ -1,0 +1,18 @@
+{
+  "appointment_id": "34129b5f-5941-4286-8f02-83969c065b04",
+  "provider_id": "PROV0028",
+  "patient_id": "PAT000231",
+  "appointment_date": "2024-05-29",
+  "scheduled_time": "13:45:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 0.0,
+  "duration_minutes": 54.0,
+  "device_type": "Laptop",
+  "operating_system": "Windows",
+  "browser": "Safari",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-05-29 16:27:00"
+}

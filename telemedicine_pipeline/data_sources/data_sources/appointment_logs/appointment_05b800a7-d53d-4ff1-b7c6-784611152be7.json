@@ -1,0 +1,18 @@
+{
+  "appointment_id": "05b800a7-d53d-4ff1-b7c6-784611152be7",
+  "provider_id": "PROV0012",
+  "patient_id": "PAT000270",
+  "appointment_date": "2024-01-09",
+  "scheduled_time": "10:00:00",
+  "appointment_type": "Urgent Care",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "Android",
+  "browser": "Firefox",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "Video Problems",
+  "timestamp": "2024-01-09 19:21:00"
+}

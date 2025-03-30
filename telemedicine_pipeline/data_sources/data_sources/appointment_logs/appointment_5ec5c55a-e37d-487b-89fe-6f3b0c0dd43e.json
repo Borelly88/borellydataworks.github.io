@@ -1,0 +1,18 @@
+{
+  "appointment_id": "5ec5c55a-e37d-487b-89fe-6f3b0c0dd43e",
+  "provider_id": "PROV0001",
+  "patient_id": "PAT000024",
+  "appointment_date": "2024-11-05",
+  "scheduled_time": "08:30:00",
+  "appointment_type": "Initial Consultation",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Laptop",
+  "operating_system": "Android",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2024-11-05 12:02:00"
+}

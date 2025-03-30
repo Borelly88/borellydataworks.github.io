@@ -1,0 +1,18 @@
+{
+  "appointment_id": "1c3ded45-3461-47e7-a81a-0406ad230e3c",
+  "provider_id": "PROV0041",
+  "patient_id": "PAT000485",
+  "appointment_date": "2025-02-11",
+  "scheduled_time": "10:00:00",
+  "appointment_type": "Medication Review",
+  "status": "Rescheduled",
+  "wait_time_minutes": 28.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-02-11 01:33:00"
+}

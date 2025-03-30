@@ -1,0 +1,15 @@
+{
+  "feedback_id": "32074d0f-e00c-4e16-9a3a-e1fe38ba7985",
+  "appointment_id": "917e9b81-bd8d-494a-834c-8c57626f147b",
+  "patient_id": "PAT000291",
+  "provider_id": "PROV0011",
+  "feedback_date": "2024-12-20",
+  "provider_rating": 4,
+  "ease_of_use_rating": 4,
+  "audio_quality_rating": 4,
+  "video_quality_rating": 2,
+  "overall_satisfaction": 5,
+  "would_recommend": true,
+  "comments": "Much better than going to a physical office.",
+  "timestamp": "2024-12-20 00:00:00"
+}

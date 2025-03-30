@@ -1,0 +1,18 @@
+{
+  "appointment_id": "6cb58985-fdac-476e-8c52-4456cd18232a",
+  "provider_id": "PROV0002",
+  "patient_id": "PAT000150",
+  "appointment_date": "2024-03-05",
+  "scheduled_time": "12:15:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Rescheduled",
+  "wait_time_minutes": 28.0,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "Windows",
+  "browser": "Firefox",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-03-05 14:13:00"
+}

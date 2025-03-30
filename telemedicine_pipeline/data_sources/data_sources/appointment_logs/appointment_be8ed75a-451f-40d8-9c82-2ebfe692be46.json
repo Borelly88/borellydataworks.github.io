@@ -1,0 +1,18 @@
+{
+  "appointment_id": "be8ed75a-451f-40d8-9c82-2ebfe692be46",
+  "provider_id": "PROV0004",
+  "patient_id": "PAT000125",
+  "appointment_date": "2024-02-19",
+  "scheduled_time": "15:45:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Cancelled",
+  "wait_time_minutes": 16.0,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "Android",
+  "browser": "Safari",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-02-19 01:01:00"
+}

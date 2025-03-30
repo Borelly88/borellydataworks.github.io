@@ -1,0 +1,18 @@
+{
+  "appointment_id": "d1a60e68-9e21-4da2-80e3-55bfb3bb9f22",
+  "provider_id": "PROV0001",
+  "patient_id": "PAT000281",
+  "appointment_date": "2024-12-20",
+  "scheduled_time": "14:15:00",
+  "appointment_type": "Medication Review",
+  "status": "Cancelled",
+  "wait_time_minutes": 17.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "macOS",
+  "browser": "Safari",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Browser Compatibility",
+  "timestamp": "2024-12-20 11:33:00"
+}

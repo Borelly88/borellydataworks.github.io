@@ -1,0 +1,18 @@
+{
+  "appointment_id": "8011f76e-194a-480d-b1e4-66e91463ca89",
+  "provider_id": "PROV0012",
+  "patient_id": "PAT000329",
+  "appointment_date": "2024-01-07",
+  "scheduled_time": "08:45:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Rescheduled",
+  "wait_time_minutes": 15.0,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "iOS",
+  "browser": "Chrome",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-01-07 20:28:00"
+}

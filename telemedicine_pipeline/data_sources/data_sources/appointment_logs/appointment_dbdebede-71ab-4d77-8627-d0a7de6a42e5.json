@@ -1,0 +1,18 @@
+{
+  "appointment_id": "dbdebede-71ab-4d77-8627-d0a7de6a42e5",
+  "provider_id": "PROV0024",
+  "patient_id": "PAT000412",
+  "appointment_date": "2024-06-23",
+  "scheduled_time": "08:45:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 18.0,
+  "duration_minutes": 17.0,
+  "device_type": "Desktop",
+  "operating_system": "Android",
+  "browser": "Edge",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-06-23 19:18:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "24fa0abd-deec-414d-bf66-58957f0857c6",
+  "provider_id": "PROV0016",
+  "patient_id": "PAT000455",
+  "appointment_date": "2024-03-02",
+  "scheduled_time": "10:00:00",
+  "appointment_type": "Follow-up",
+  "status": "Rescheduled",
+  "wait_time_minutes": 3.0,
+  "duration_minutes": NaN,
+  "device_type": "Laptop",
+  "operating_system": "macOS",
+  "browser": "Safari",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-03-02 09:42:00"
+}

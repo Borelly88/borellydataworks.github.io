@@ -1,0 +1,15 @@
+{
+  "feedback_id": "5ab0c505-b3ad-4537-bc5f-b086e7a109bc",
+  "appointment_id": "8274366e-8d26-46b7-9150-37df449e1b42",
+  "patient_id": "PAT000411",
+  "provider_id": "PROV0011",
+  "feedback_date": "2025-02-10",
+  "provider_rating": 4,
+  "ease_of_use_rating": 2,
+  "audio_quality_rating": 2,
+  "video_quality_rating": 5,
+  "overall_satisfaction": 5,
+  "would_recommend": true,
+  "comments": "Will definitely use this service again.",
+  "timestamp": "2025-02-10 00:00:00"
+}

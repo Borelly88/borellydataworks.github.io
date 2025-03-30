@@ -1,0 +1,18 @@
+{
+  "appointment_id": "a114ceb1-235b-4598-8053-1ceb6af6bfe6",
+  "provider_id": "PROV0017",
+  "patient_id": "PAT000150",
+  "appointment_date": "2024-06-20",
+  "scheduled_time": "11:30:00",
+  "appointment_type": "Urgent Care",
+  "status": "Cancelled",
+  "wait_time_minutes": 19.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "iOS",
+  "browser": "Edge",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-06-20 07:32:00"
+}

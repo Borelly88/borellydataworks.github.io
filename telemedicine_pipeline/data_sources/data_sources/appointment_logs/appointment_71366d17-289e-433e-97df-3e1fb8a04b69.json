@@ -1,0 +1,18 @@
+{
+  "appointment_id": "71366d17-289e-433e-97df-3e1fb8a04b69",
+  "provider_id": "PROV0032",
+  "patient_id": "PAT000400",
+  "appointment_date": "2025-02-10",
+  "scheduled_time": "08:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 0.0,
+  "duration_minutes": 23.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2025-02-10 03:14:00"
+}

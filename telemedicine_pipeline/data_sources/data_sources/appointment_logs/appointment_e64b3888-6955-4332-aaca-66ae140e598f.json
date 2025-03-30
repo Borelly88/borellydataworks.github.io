@@ -1,0 +1,18 @@
+{
+  "appointment_id": "e64b3888-6955-4332-aaca-66ae140e598f",
+  "provider_id": "PROV0008",
+  "patient_id": "PAT000455",
+  "appointment_date": "2024-11-22",
+  "scheduled_time": "09:30:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 4.0,
+  "duration_minutes": 13.0,
+  "device_type": "Laptop",
+  "operating_system": "Linux",
+  "browser": "Edge",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-11-22 02:38:00"
+}

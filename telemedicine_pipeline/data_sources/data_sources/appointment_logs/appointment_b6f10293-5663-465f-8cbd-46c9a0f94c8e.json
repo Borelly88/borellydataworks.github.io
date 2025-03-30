@@ -1,0 +1,18 @@
+{
+  "appointment_id": "b6f10293-5663-465f-8cbd-46c9a0f94c8e",
+  "provider_id": "PROV0033",
+  "patient_id": "PAT000340",
+  "appointment_date": "2025-02-15",
+  "scheduled_time": "17:15:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 8.0,
+  "duration_minutes": 24.0,
+  "device_type": "Tablet",
+  "operating_system": "Windows",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-02-15 03:51:00"
+}

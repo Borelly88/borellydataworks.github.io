@@ -1,0 +1,18 @@
+{
+  "appointment_id": "01af9cfb-d32e-4e3a-8ce9-186d69f0f421",
+  "provider_id": "PROV0028",
+  "patient_id": "PAT000371",
+  "appointment_date": "2024-03-14",
+  "scheduled_time": "16:15:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 3.0,
+  "duration_minutes": 55.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Linux",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-03-14 10:46:00"
+}

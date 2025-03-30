@@ -1,0 +1,18 @@
+{
+  "appointment_id": "1a45b7b3-ce7e-4db0-b37c-e684dc025133",
+  "provider_id": "PROV0010",
+  "patient_id": "PAT000165",
+  "appointment_date": "2025-01-07",
+  "scheduled_time": "11:30:00",
+  "appointment_type": "Medication Review",
+  "status": "Completed",
+  "wait_time_minutes": 15.0,
+  "duration_minutes": 20.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Android",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-07 23:53:00"
+}

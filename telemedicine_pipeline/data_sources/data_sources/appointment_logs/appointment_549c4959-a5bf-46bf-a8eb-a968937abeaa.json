@@ -1,0 +1,18 @@
+{
+  "appointment_id": "549c4959-a5bf-46bf-a8eb-a968937abeaa",
+  "provider_id": "PROV0001",
+  "patient_id": "PAT000440",
+  "appointment_date": "2024-10-03",
+  "scheduled_time": "17:45:00",
+  "appointment_type": "Initial Consultation",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Windows",
+  "browser": "Safari",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-10-03 05:57:00"
+}

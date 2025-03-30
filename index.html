@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BorellyDataWorks - Data Engineering Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 6rem 0;
+            margin-bottom: 3rem;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto 1.5rem auto;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary-color);
+        }
+        
+        .project-card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .project-img {
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .project-tag {
+            display: inline-block;
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .about-section {
+            background-color: var(--light-color);
+            padding: 4rem 0;
+            margin-top: 3rem;
+        }
+        
+        .skill-badge {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-section {
+            padding: 4rem 0;
+        }
+        
+        .contact-icon {
+            font-size: 2rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 0;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        
+        .btn-outline-light:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+        
+        .profile-img {
+            border-radius: 50%;
+            max-width: 200px;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .coming-soon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">BorellyDataWorks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <h1>Data Engineering Portfolio</h1>
+            <p class="lead">Showcasing innovative data solutions that transform raw information into actionable insights</p>
+            <div class="mt-4">
+                <a href="#projects" class="btn btn-light btn-lg me-2">View Projects</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Featured Projects</h2>
+            
+            <div class="row">
+                <!-- Telemedicine Project -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card">
+                        <img src="telemedicine_pipeline/website/assets/appointment_status_chart.png" class="card-img-top project-img" alt="Telemedicine Pipeline">
+                        <div class="card-body">
+                            <h5 class="card-title">Telemedicine Appointment Data Pipeline</h5>
+                            <div class="mb-3">
+                                <span class="project-tag">Data Pipeline</span>
+                                <span class="project-tag">Healthcare</span>
+                                <span class="project-tag">AWS</span>
+                            </div>
+                            <p class="card-text">A comprehensive solution for capturing, processing, and analyzing telemedicine appointment data to improve operational efficiency.</p>
+                            <a href="telemedicine_pipeline/website/index.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- E-Commerce Analytics Project (Coming Soon) -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="card-img-top project-img" alt="E-Commerce Analytics">
+                            <span class="coming-soon">Coming Soon</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Analytics Platform</h5>
+                            <div class="mb-3">
+                                <span class="project-tag">Real-time Analytics</span>
+                                <span class="project-tag">E-Commerce</span>
+                                <span class="project-tag">Big Data</span>
+                            </div>
+                            <p class="card-text">A real-time analytics platform for e-commerce data, providing insights into customer behavior and sales patterns.</p>
+                            <button class="btn btn-secondary" disabled>Coming Soon</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Financial Data Warehouse Project (Coming Soon) -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="card-img-top project-img" alt="Financial Data Warehouse">
+                            <span class="coming-soon">Coming Soon</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Financial Data Warehouse</h5>
+                            <div class="mb-3">
+                                <span class="project-tag">Data Warehouse</span>
+                                <span class="project-tag">Finance</span>
+                                <span class="project-tag">Snowflake</span>
+                            </div>
+                            <p class="card-text">A scalable data warehouse solution for financial data, enabling complex analytics and regulatory reporting.</p>
+                            <button class="btn btn-secondary" disabled>Coming Soon</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" alt="Profile Photo" class="profile-img">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I am a passionate Data Engineer with expertise in designing and implementing data pipelines, warehouses, and analytics solutions. With a strong background in both software engineering and data science, I specialize in transforming complex data challenges into scalable, efficient solutions.</p>
+                    <p>My experience spans across healthcare, finance, and e-commerce industries, where I've successfully delivered projects that turn raw data into actionable insights. I'm particularly interested in real-time data processing, cloud-native architectures, and building systems that scale.</p>
+                    <p>When I'm not working with data, you can find me contributing to open-source projects, mentoring aspiring data engineers, or exploring the latest advancements in data technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Technical Skills</h2>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Engineering</h5>
+                            <div>
+                                <span class="skill-badge">ETL/ELT</span>
+                                <span class="skill-badge">Data Modeling</span>
+                                <span class="skill-badge">Data Pipelines</span>
+                                <span class="skill-badge">Batch Processing</span>
+                                <span class="skill-badge">Stream Processing</span>
+                                <span class="skill-badge">Data Quality</span>
+                                <span class="skill-badge">Data Governance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Technologies & Tools</h5>
+                            <div>
+                                <span class="skill-badge">Python</span>
+                                <span class="skill-badge">SQL</span>
+                                <span class="skill-badge">Spark</span>
+                                <span class="skill-badge">Kafka</span>
+                                <span class="skill-badge">Airflow</span>
+                                <span class="skill-badge">dbt</span>
+                                <span class="skill-badge">Docker</span>
+                                <span class="skill-badge">Kubernetes</span>
+                                <span class="skill-badge">Terraform</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Platforms</h5>
+                            <div>
+                                <span class="skill-badge">AWS</span>
+                                <span class="skill-badge">S3</span>
+                                <span class="skill-badge">Redshift</span>
+                                <span class="skill-badge">RDS</span>
+                                <span class="skill-badge">Lambda</span>
+                                <span class="skill-badge">Glue</span>
+                                <span class="skill-badge">MSK</span>
+                                <span class="skill-badge">CloudWatch</span>
+                                <span class="skill-badge">IAM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Get In Touch</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:rajborelly@gmail.com" class="text-decoration-none">rajborelly@gmail.com</a></p>
+                </div>
+                
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h4>GitHub</h4>
+                    <p><a href="https://github.com/ShanBore" target="_blank" class="text-decoration-none">github.com/ShanBore</a></p>
+                </div>
+                
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h4>LinkedIn</h4>
+                    <p><a href="https://www.linkedin.com/in/rajbore/" target="_blank" class="text-decoration-none">linkedin.com/in/rajbore</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>BorellyDataWorks</h4>
+                    <p>Transforming data into actionable insights through innovative engineering solutions.</p>
+                    <div class="footer-links">
+                        <a href="#projects">Projects</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end mt-4 mt-md-0">
+                    <p>
+                        <a href="mailto:rajborelly@gmail.com" class="text-white">
+                            <i class="fas fa-envelope me-2"></i>rajborelly@gmail.com
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/ShanBore" class="text-white" target="_blank">
+                            <i class="fab fa-github me-2"></i>GitHub Repository
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/rajbore/" class="text-white" target="_blank">
+                            <i class="fab fa-linkedin me-2"></i>LinkedIn Profile
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">&copy; 2025 BorellyDataWorks. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

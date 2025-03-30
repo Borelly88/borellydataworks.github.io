@@ -1,0 +1,18 @@
+{
+  "appointment_id": "ca43924c-66f7-4f7c-aa70-083373905a11",
+  "provider_id": "PROV0035",
+  "patient_id": "PAT000189",
+  "appointment_date": "2025-02-09",
+  "scheduled_time": "17:15:00",
+  "appointment_type": "Urgent Care",
+  "status": "Completed",
+  "wait_time_minutes": 6.0,
+  "duration_minutes": 55.0,
+  "device_type": "Laptop",
+  "operating_system": "Linux",
+  "browser": "Safari",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-02-09 12:29:00"
+}

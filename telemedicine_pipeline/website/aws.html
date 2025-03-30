@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Implementation - BorellyDataWorks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/custom.css">
+    <link rel="stylesheet" href="assets/portfolio-nav.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary-color);
+        }
+        
+        .aws-card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .aws-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .aws-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+        }
+        
+        .aws-service {
+            background-color: var(--light-color);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        
+        .btn-outline-light:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+        
+        .code-block {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+        
+        .terraform-logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        
+        .aws-logo {
+            max-width: 120px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Back to Portfolio Link -->
+    <a href="../../../index.html" class="back-to-portfolio">
+        <i class="fas fa-arrow-left"></i> Back to Portfolio
+    </a>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">BorellyDataWorks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#dashboards">Dashboards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#architecture">Architecture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#insights">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#documentation">Documentation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <h1>AWS Implementation</h1>
+            <p class="lead">Production-ready deployment of the Telemedicine Appointment Data Pipeline using AWS managed services</p>
+            <div class="mt-4">
+                <a href="#aws-architecture" class="btn btn-light btn-lg me-2">View Architecture</a>
+                <a href="#terraform" class="btn btn-outline-light btn-lg">Terraform Code</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- AWS Architecture Section -->
+    <section id="aws-architecture" class="py-5">
+        <div class="container">
+            <h2 class="section-title">AWS Architecture</h2>
+            <p>The Telemedicine Appointment Data Pipeline is designed to be deployed on AWS using managed services to ensure scalability, reliability, and security. The architecture leverages serverless and managed services to minimize operational overhead while providing enterprise-grade capabilities.</p>
+            
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h4>Key Benefits of AWS Implementation</h4>
+                    <ul>
+                        <li><strong>Scalability:</strong> Automatically scales to handle varying workloads</li>
+                        <li><strong>Reliability:</strong> Managed services with high availability and fault tolerance</li>
+                        <li><strong>Security:</strong> Built-in security features and compliance capabilities</li>
+                        <li><strong>Cost-effectiveness:</strong> Pay-as-you-go pricing with no upfront costs</li>
+                        <li><strong>Operational efficiency:</strong> Reduced operational overhead with managed services</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="aws-service">
+                        <h4 class="text-center mb-4">AWS Services Used</h4>
+                        <div class="row">
+                            <div class="col-6 col-md-4 text-center mb-3">
+                                <i class="fab fa-aws aws-icon"></i>
+                                <p>Amazon S3</p>
+                            </div>
+                            <div class="col-6 col-md-4 text-center mb-3">
+                                <i class="fab fa-aws aws-icon"></i>
+                                <p>Amazon RDS</p>
+                            </div>
+                            <div class="col-6 col-md-4 text-center mb-3">
+                                <i class="fab fa-aws aws-icon"></i>
+                                <p>Amazon MSK</p>
+                            </div>
+                            <div class="col-6 col-md-4 text-center mb-3">
+                                <i class="fab fa-aws aws-icon"></i>
+                                <p>Amazon MWAA</p>
+                            </div>
+                            <div class="col-6 col-md-4 text-center mb-3">
+                                <i class="fab fa-aws aws-icon"></i>
+                                <p>Amazon Redshift</p>
+                            </div>
+                            <div class="col-6 col-md-4 text-center mb-3">
+                                <i class="fab fa-aws aws-icon"></i>
+                                <p>AWS Glue</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <h4>Architecture Diagram</h4>
+                    <img src="assets/aws_architecture_diagram.png" alt="AWS Architecture Diagram" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AWS Service Mapping Section -->
+    <section id="aws-mapping" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">AWS Service Mapping</h2>
+            <p>The following table shows how each component of the local implementation maps to AWS services in a production environment:</p>
+            
+            <div class="table-responsive mt-4">
+                <table class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Component</th>
+                            <th>Local Implementation</th>
+                            <th>AWS Service</th>
+                            <th>Benefits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data Storage</td>
+                            <td>CSV/JSON Files</td>
+                            <td>Amazon S3</td>
+                            <td>Durability, scalability, lifecycle management</td>
+                        </tr>
+                        <tr>
+                            <td>Relational Database</td>
+                            <td>PostgreSQL</td>
+                            <td>Amazon RDS for PostgreSQL</td>
+                            <td>Managed service, automated backups, high availability</td>
+                        </tr>
+                        <tr>
+                            <td>Streaming</td>
+                            <td>Kafka</td>
+                            <td>Amazon MSK</td>
+                            <td>Fully managed Kafka service, scalability, security</td>
+                        </tr>
+                        <tr>
+                            <td>Workflow Orchestration</td>
+                            <td>Airflow</td>
+                            <td>Amazon MWAA</td>
+                            <td>Managed Airflow service, scalability, integration with AWS services</td>
+                        </tr>
+                        <tr>
+                            <td>ETL Processing</td>
+                            <td>Python Scripts</td>
+                            <td>AWS Glue</td>
+                            <td>Serverless ETL service, built-in connectors, automatic scaling</td>
+                        </tr>
+                        <tr>
+                            <td>Data Warehouse</td>
+                            <td>SQLite</td>
+                            <td>Amazon Redshift</td>
+                            <td>Petabyte-scale data warehouse, columnar storage, high performance</td>
+                        </tr>
+                        <tr>
+                            <td>Visualization</td>
+                            <td>Custom Dashboards</td>
+                            <td>Amazon QuickSight</td>
+                            <td>Interactive dashboards, ML insights, easy sharing</td>
+                        </tr>
+                        <tr>
+                            <td>Monitoring</td>
+                            <td>Custom Scripts</td>
+                            <td>Amazon CloudWatch</td>
+                            <td>Comprehensive monitoring, metrics, logs, dashboards</td>
+                        </tr>
+                        <tr>
+                            <td>Alerting</td>
+                            <td>Email Notifications</td>
+                            <td>CloudWatch Alarms + SNS</td>
+                            <td>Automated alerting, multiple notification channels</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="mt-4 text-center">
+                <a href="docs/AWS_SERVICE_MAPPING.md" class="btn btn-primary" target="_blank">View Detailed Service Mapping</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terraform Section -->
+    <section id="terraform" class="py-5">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <h2 class="section-title">Infrastructure as Code</h2>
+                    <p>The AWS infrastructure for the Telemedicine Appointment Data Pipeline is defined using Terraform, enabling infrastructure as code practices for consistent, repeatable deployments.</p>
+                    <p>The Terraform configuration includes:</p>
+                    <ul>
+                        <li>VPC and networking components</li>
+                        <li>S3 buckets for data storage</li>
+                        <li>RDS PostgreSQL for provider data</li>
+                        <li>MSK for real-time streaming</li>
+                        <li>MWAA for workflow orchestration</li>
+                        <li>Redshift for data warehousing</li>
+                        <li>CloudWatch for monitoring and alerting</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://www.datocms-assets.com/2885/1620155116-brandhcterraformverticalcolor.svg" alt="Terraform Logo" class="terraform-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" class="aws-logo">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Terraform Configuration</h4>
+                    <div class="code-block">
+                        <pre># Example Terraform configuration for VPC and S3 buckets
+
+provider "aws" {
+  region = var.aws_region
+}
+
+# VPC and Network Configuration
+module "vpc" {
+  source = "terraform-aws-modules/vpc/aws"
+  version = "~> 3.0"
+
+  name = "${var.project_name}-vpc"
+  cidr = var.vpc_cidr
+
+  azs             = var.availability_zones
+  private_subnets = var.private_subnet_cidrs
+  public_subnets  = var.public_subnet_cidrs
+
+  enable_nat_gateway = true
+  single_nat_gateway = var.environment != "production"
+  
+  # Additional configuration...
+}
+
+# S3 Buckets for Data Storage
+resource "aws_s3_bucket" "raw_data" {
+  bucket = "${var.project_name}-raw-data-${var.environment}"
+  
+  tags = merge(
+    var.common_tags,
+    {
+      Name = "${var.project_name}-raw-data"
+      DataClassification = "Sensitive"
+    }
+  )
+}
+
+# Additional resources...</pre>
+                    </div>
+                    
+                    <div class="mt-4 text-center">
+                        <a href="docs/terraform/main.tf" class="btn btn-primary me-2" target="_blank">View main.tf</a>
+                        <a href="docs/terraform/variables.tf" class="btn btn-primary" target="_blank">View variables.tf</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deployment Guide Section -->
+    <section id="deployment-guide" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">AWS Deployment Guide</h2>
+            <p>The AWS Deployment Guide provides comprehensive instructions for deploying the Telemedicine Appointment Data Pipeline to AWS in a production environment.</p>
+            
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="aws-card p-4">
+                        <h4>Infrastructure Setup</h4>
+                        <p>Step-by-step instructions for setting up the AWS infrastructure using Terraform, including VPC, security groups, and IAM roles.</p>
+                        <ul>
+                            <li>Network configuration</li>
+                            <li>Security setup</li>
+                            <li>Service deployment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aws-card p-4">
+                        <h4>Security Configuration</h4>
+                        <p>Detailed guidance on implementing security best practices for the AWS deployment, including encryption, access control, and compliance.</p>
+                        <ul>
+                            <li>IAM policies</li>
+                            <li>Encryption configuration</li>
+                            <li>HIPAA compliance</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aws-card p-4">
+                        <h4>Monitoring & Maintenance</h4>
+                        <p>Instructions for setting up monitoring, alerting, and maintenance procedures for the AWS deployment.</p>
+                        <ul>
+                            <li>CloudWatch dashboards</li>
+                            <li>Alert configuration</li>
+                            <li>Backup procedures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-5 text-center">
+                <a href="docs/AWS_DEPLOYMENT_GUIDE.md" class="btn btn-primary" target="_blank">View Complete Deployment Guide</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cost Optimization Section -->
+    <section id="cost-optimization" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Cost Optimization</h2>
+            <p>Implementing the Telemedicine Appointment Data Pipeline on AWS requires careful consideration of costs. The following strategies can help optimize costs while maintaining performance and reliability:</p>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h4>Cost Optimization Strategies</h4>
+                    <ul>
+                        <li><strong>Right-sizing:</strong> Choose appropriate instance types and sizes based on workload requirements</li>
+                        <li><strong>Reserved Instances/Savings Plans:</strong> Use reserved instances or savings plans for predictable workloads</li>
+                        <li><strong>Lifecycle Policies:</strong> Implement lifecycle policies for S3 data to move infrequently accessed data to cheaper storage classes</li>
+                        <li><strong>Auto-scaling:</strong> Configure auto-scaling to match resources with demand</li>
+                        <li><strong>Spot Instances:</strong> Use spot instances for non-critical workloads</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Cost Monitoring Tools</h4>
+                    <ul>
+                        <li><strong>AWS Cost Explorer:</strong> Analyze and visualize costs and usage over time</li>
+                        <li><strong>AWS Budgets:</strong> Set custom budgets and receive alerts when costs exceed thresholds</li>
+                        <li><strong>AWS Cost and Usage Report:</strong> Detailed cost and usage data for comprehensive analysis</li>
+                        <li><strong>AWS Trusted Advisor:</strong> Recommendations for cost optimization</li>
+                        <li><strong>Resource Tags:</strong> Implement tagging strategy for cost allocation and tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>BorellyDataWorks</h4>
+                    <p>A comprehensive solution for capturing, processing, and analyzing telemedicine appointment data.</p>
+                    <div class="footer-links">
+                        <a href="index.html#overview">Overview</a>
+                        <a href="index.html#features">Features</a>
+                        <a href="index.html#dashboards">Dashboards</a>
+                        <a href="index.html#architecture">Architecture</a>
+                        <a href="index.html#insights">Insights</a>
+                        <a href="index.html#documentation">Documentation</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end mt-4 mt-md-0">
+                    <h4>Contact</h4>
+                    <p>For more information about this project:</p>
+                    <p>
+                        <a href="mailto:Rajborelly@gmail.com" class="text-white">
+                            <i class="fas fa-envelope me-2"></i>Rajborelly@gmail.com
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/ShanBore" class="text-white" target="_blank">
+                            <i class="fab fa-github me-2"></i>GitHub Repository
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/rajbore/" class="text-white" target="_blank">
+                            <i class="fab fa-linkedin me-2"></i>LinkedIn Profile
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">&copy; 2025 BorellyDataWorks. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/generate-aws-diagram.js"></script>
+    <script src="assets/generate-placeholder-images.js"></script>
+</body>
+</html>

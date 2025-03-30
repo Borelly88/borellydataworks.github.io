@@ -1,0 +1,18 @@
+{
+  "appointment_id": "79832c6a-ca00-4363-8d26-08e07c88043c",
+  "provider_id": "PROV0028",
+  "patient_id": "PAT000303",
+  "appointment_date": "2024-06-21",
+  "scheduled_time": "14:00:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 29.0,
+  "duration_minutes": 47.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Firefox",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-06-21 05:14:00"
+}

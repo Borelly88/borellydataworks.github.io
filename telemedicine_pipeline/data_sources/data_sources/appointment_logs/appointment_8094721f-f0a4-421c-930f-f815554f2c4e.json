@@ -1,0 +1,18 @@
+{
+  "appointment_id": "8094721f-f0a4-421c-930f-f815554f2c4e",
+  "provider_id": "PROV0038",
+  "patient_id": "PAT000125",
+  "appointment_date": "2024-12-02",
+  "scheduled_time": "09:45:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 18.0,
+  "duration_minutes": 51.0,
+  "device_type": "Laptop",
+  "operating_system": "Windows",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-12-02 13:49:00"
+}

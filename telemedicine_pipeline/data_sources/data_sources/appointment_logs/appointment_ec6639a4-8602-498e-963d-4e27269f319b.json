@@ -1,0 +1,18 @@
+{
+  "appointment_id": "ec6639a4-8602-498e-963d-4e27269f319b",
+  "provider_id": "PROV0009",
+  "patient_id": "PAT000098",
+  "appointment_date": "2024-10-05",
+  "scheduled_time": "10:15:00",
+  "appointment_type": "Follow-up",
+  "status": "Cancelled",
+  "wait_time_minutes": 1.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Linux",
+  "browser": "Safari",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-10-05 18:42:00"
+}

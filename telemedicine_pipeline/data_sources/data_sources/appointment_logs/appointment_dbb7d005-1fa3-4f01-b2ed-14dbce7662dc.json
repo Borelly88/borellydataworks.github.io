@@ -1,0 +1,18 @@
+{
+  "appointment_id": "dbb7d005-1fa3-4f01-b2ed-14dbce7662dc",
+  "provider_id": "PROV0011",
+  "patient_id": "PAT000359",
+  "appointment_date": "2025-02-13",
+  "scheduled_time": "09:15:00",
+  "appointment_type": "Initial Consultation",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "macOS",
+  "browser": "Firefox",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-02-13 17:50:00"
+}

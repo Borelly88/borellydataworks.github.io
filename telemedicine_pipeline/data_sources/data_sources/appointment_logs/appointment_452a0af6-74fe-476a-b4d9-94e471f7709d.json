@@ -1,0 +1,18 @@
+{
+  "appointment_id": "452a0af6-74fe-476a-b4d9-94e471f7709d",
+  "provider_id": "PROV0001",
+  "patient_id": "PAT000077",
+  "appointment_date": "2025-01-08",
+  "scheduled_time": "14:45:00",
+  "appointment_type": "Urgent Care",
+  "status": "Cancelled",
+  "wait_time_minutes": 25.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Android",
+  "browser": "Chrome",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Browser Compatibility",
+  "timestamp": "2025-01-08 20:27:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "fd91f7f8-e9db-4e1e-ae14-6eac952e4f5a",
+  "provider_id": "PROV0019",
+  "patient_id": "PAT000097",
+  "appointment_date": "2024-11-29",
+  "scheduled_time": "15:00:00",
+  "appointment_type": "Urgent Care",
+  "status": "Completed",
+  "wait_time_minutes": 17.0,
+  "duration_minutes": 31.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "macOS",
+  "browser": "Safari",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-11-29 01:49:00"
+}

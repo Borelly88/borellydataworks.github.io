@@ -1,0 +1,18 @@
+{
+  "appointment_id": "ea486c3b-a26b-419e-83e8-21920fa260da",
+  "provider_id": "PROV0029",
+  "patient_id": "PAT000094",
+  "appointment_date": "2024-05-03",
+  "scheduled_time": "16:30:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 25.0,
+  "duration_minutes": 39.0,
+  "device_type": "Laptop",
+  "operating_system": "Linux",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-05-03 04:07:00"
+}

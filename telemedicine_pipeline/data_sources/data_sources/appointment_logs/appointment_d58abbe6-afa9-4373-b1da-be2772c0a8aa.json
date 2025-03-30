@@ -1,0 +1,18 @@
+{
+  "appointment_id": "d58abbe6-afa9-4373-b1da-be2772c0a8aa",
+  "provider_id": "PROV0043",
+  "patient_id": "PAT000387",
+  "appointment_date": "2024-04-18",
+  "scheduled_time": "13:30:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Cancelled",
+  "wait_time_minutes": 21.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "macOS",
+  "browser": "Chrome",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-04-18 02:40:00"
+}

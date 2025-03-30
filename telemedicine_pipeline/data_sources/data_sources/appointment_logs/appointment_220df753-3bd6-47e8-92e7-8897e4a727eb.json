@@ -1,0 +1,18 @@
+{
+  "appointment_id": "220df753-3bd6-47e8-92e7-8897e4a727eb",
+  "provider_id": "PROV0047",
+  "patient_id": "PAT000032",
+  "appointment_date": "2024-07-16",
+  "scheduled_time": "12:15:00",
+  "appointment_type": "Medication Review",
+  "status": "Rescheduled",
+  "wait_time_minutes": 23.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Windows",
+  "browser": "Edge",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-07-16 07:50:00"
+}

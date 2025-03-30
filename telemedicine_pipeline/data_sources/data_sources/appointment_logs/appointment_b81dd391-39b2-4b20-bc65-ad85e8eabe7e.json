@@ -1,0 +1,18 @@
+{
+  "appointment_id": "b81dd391-39b2-4b20-bc65-ad85e8eabe7e",
+  "provider_id": "PROV0027",
+  "patient_id": "PAT000368",
+  "appointment_date": "2024-12-18",
+  "scheduled_time": "10:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Linux",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-12-18 09:48:00"
+}

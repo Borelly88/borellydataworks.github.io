@@ -1,0 +1,18 @@
+{
+  "appointment_id": "0f78778a-bcee-4f7e-be46-d2bd8ca9f0de",
+  "provider_id": "PROV0049",
+  "patient_id": "PAT000184",
+  "appointment_date": "2024-05-26",
+  "scheduled_time": "09:00:00",
+  "appointment_type": "Follow-up",
+  "status": "Rescheduled",
+  "wait_time_minutes": 5.0,
+  "duration_minutes": NaN,
+  "device_type": "Laptop",
+  "operating_system": "Android",
+  "browser": "Edge",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Login Issues",
+  "timestamp": "2024-05-26 13:32:00"
+}

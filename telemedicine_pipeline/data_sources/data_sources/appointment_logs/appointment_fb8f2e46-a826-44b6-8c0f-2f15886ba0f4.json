@@ -1,0 +1,18 @@
+{
+  "appointment_id": "fb8f2e46-a826-44b6-8c0f-2f15886ba0f4",
+  "provider_id": "PROV0048",
+  "patient_id": "PAT000013",
+  "appointment_date": "2024-08-03",
+  "scheduled_time": "15:30:00",
+  "appointment_type": "Urgent Care",
+  "status": "Completed",
+  "wait_time_minutes": 27.0,
+  "duration_minutes": 17.0,
+  "device_type": "Desktop",
+  "operating_system": "Android",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-08-03 01:56:00"
+}

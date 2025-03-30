@@ -1,0 +1,18 @@
+{
+  "appointment_id": "cf6adf04-4814-4f9a-ae02-bbf9750ca90a",
+  "provider_id": "PROV0030",
+  "patient_id": "PAT000380",
+  "appointment_date": "2024-10-01",
+  "scheduled_time": "12:30:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 3.0,
+  "duration_minutes": 13.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Android",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-10-01 19:00:00"
+}

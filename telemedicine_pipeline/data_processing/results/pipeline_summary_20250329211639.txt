@@ -1,0 +1,59 @@
+Pipeline Summary
+===============
+
+Start Time: 2025-03-29 21:16:38
+End Time: 2025-03-29 21:16:39
+Duration: 1.05 seconds
+Status: SUCCESS
+
+Components: 2/2 completed
+
+Component Details
+----------------
+
+Component: Data Transformation
+Status: SUCCESS
+Duration: 0.56 seconds
+Timestamp: 2025-03-29 21:16:38
+Output: Loading data...
+Loaded 2000 appointments from original data source
+Loaded 1497 feedback records from original data source
+Loaded 50 providers from original data source
+Loaded 500 patients from original data source
+
+Transforming dimension tables...
+Created date dimension with 514 rows
+Created time dimension with 96 rows
+Created provider dimension with 50 rows
+Created patient dimension with 500 rows
+
+Transforming fact tables...
+Created appointment fact table with 2000 rows
+Created feedback fact ta...
+
+Component: Data Quality Checks
+Status: SUCCESS
+Duration: 0.49 seconds
+Timestamp: 2025-03-29 21:16:39
+Output: Starting data quality checks...
+
+Loading transformed data...
+Loaded dim_date.csv with 514 rows
+Loaded dim_time.csv with 96 rows
+Loaded dim_provider.csv with 50 rows
+Loaded dim_patient.csv with 500 rows
+Loaded dim_status.csv with 4 rows
+Loaded dim_device.csv with 4 rows
+Loaded fact_appointment.csv with 2000 rows
+Loaded fact_feedback.csv with 1497 rows
+
+Checking primary keys...
+
+Checking foreign keys...
+
+Checking data quality...
+
+Generating summary report...
+
+Data quality check complete! Summary s...
+

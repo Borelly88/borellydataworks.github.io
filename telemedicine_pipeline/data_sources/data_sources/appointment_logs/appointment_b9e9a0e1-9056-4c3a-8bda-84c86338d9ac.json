@@ -1,0 +1,18 @@
+{
+  "appointment_id": "b9e9a0e1-9056-4c3a-8bda-84c86338d9ac",
+  "provider_id": "PROV0025",
+  "patient_id": "PAT000327",
+  "appointment_date": "2025-01-26",
+  "scheduled_time": "08:30:00",
+  "appointment_type": "Urgent Care",
+  "status": "Rescheduled",
+  "wait_time_minutes": 28.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Android",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-26 09:56:00"
+}

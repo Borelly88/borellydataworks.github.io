@@ -1,0 +1,18 @@
+{
+  "appointment_id": "403a6850-6977-4c1e-b916-e02e97bb2077",
+  "provider_id": "PROV0025",
+  "patient_id": "PAT000418",
+  "appointment_date": "2025-01-05",
+  "scheduled_time": "12:45:00",
+  "appointment_type": "Urgent Care",
+  "status": "Rescheduled",
+  "wait_time_minutes": 3.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Android",
+  "browser": "Safari",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Browser Compatibility",
+  "timestamp": "2025-01-05 03:29:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "85df7a52-4662-4ede-97f4-e60440de020f",
+  "provider_id": "PROV0046",
+  "patient_id": "PAT000069",
+  "appointment_date": "2024-02-09",
+  "scheduled_time": "17:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Cancelled",
+  "wait_time_minutes": 30.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Android",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-02-09 05:58:00"
+}

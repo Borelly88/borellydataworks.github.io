@@ -1,0 +1,18 @@
+{
+  "appointment_id": "8ae578b2-50d9-4adf-99ed-964f604c7ee7",
+  "provider_id": "PROV0035",
+  "patient_id": "PAT000106",
+  "appointment_date": "2025-02-08",
+  "scheduled_time": "08:30:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 15.0,
+  "duration_minutes": 25.0,
+  "device_type": "Tablet",
+  "operating_system": "macOS",
+  "browser": "Edge",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Login Issues",
+  "timestamp": "2025-02-08 08:05:00"
+}

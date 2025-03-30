@@ -1,0 +1,18 @@
+{
+  "appointment_id": "2ade46e6-e12f-470d-86c5-855b8911244d",
+  "provider_id": "PROV0036",
+  "patient_id": "PAT000446",
+  "appointment_date": "2025-03-06",
+  "scheduled_time": "16:15:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 13.0,
+  "duration_minutes": 34.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-03-06 13:38:00"
+}

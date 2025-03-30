@@ -1,0 +1,15 @@
+{
+  "feedback_id": "c2c4bcea-cc29-41c4-9596-bb1ae7dd0759",
+  "appointment_id": "30f4f3a5-965a-4afe-875d-84c47a6f416d",
+  "patient_id": "PAT000179",
+  "provider_id": "PROV0016",
+  "feedback_date": "2024-12-26",
+  "provider_rating": 5,
+  "ease_of_use_rating": 4,
+  "audio_quality_rating": 3,
+  "video_quality_rating": 2,
+  "overall_satisfaction": 3,
+  "would_recommend": false,
+  "comments": null,
+  "timestamp": "2024-12-26 00:00:00"
+}

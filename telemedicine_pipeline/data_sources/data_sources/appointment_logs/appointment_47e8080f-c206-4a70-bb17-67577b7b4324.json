@@ -1,0 +1,18 @@
+{
+  "appointment_id": "47e8080f-c206-4a70-bb17-67577b7b4324",
+  "provider_id": "PROV0010",
+  "patient_id": "PAT000280",
+  "appointment_date": "2024-05-14",
+  "scheduled_time": "10:30:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 6.0,
+  "duration_minutes": 33.0,
+  "device_type": "Laptop",
+  "operating_system": "macOS",
+  "browser": "Safari",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Video Problems",
+  "timestamp": "2024-05-14 12:26:00"
+}

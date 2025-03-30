@@ -1,0 +1,18 @@
+{
+  "appointment_id": "164b08ae-d4be-4dae-8824-b3f605de7b5c",
+  "provider_id": "PROV0030",
+  "patient_id": "PAT000082",
+  "appointment_date": "2024-01-03",
+  "scheduled_time": "16:00:00",
+  "appointment_type": "Medication Review",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Laptop",
+  "operating_system": "Linux",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-01-03 22:35:00"
+}

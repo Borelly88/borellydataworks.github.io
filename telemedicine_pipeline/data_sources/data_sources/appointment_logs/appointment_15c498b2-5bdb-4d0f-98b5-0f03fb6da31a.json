@@ -1,0 +1,18 @@
+{
+  "appointment_id": "15c498b2-5bdb-4d0f-98b5-0f03fb6da31a",
+  "provider_id": "PROV0049",
+  "patient_id": "PAT000296",
+  "appointment_date": "2024-02-06",
+  "scheduled_time": "17:30:00",
+  "appointment_type": "Follow-up",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Linux",
+  "browser": "Chrome",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-02-06 21:40:00"
+}

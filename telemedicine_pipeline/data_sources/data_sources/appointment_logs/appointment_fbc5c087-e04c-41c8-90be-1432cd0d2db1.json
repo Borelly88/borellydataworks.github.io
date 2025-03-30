@@ -1,0 +1,18 @@
+{
+  "appointment_id": "fbc5c087-e04c-41c8-90be-1432cd0d2db1",
+  "provider_id": "PROV0002",
+  "patient_id": "PAT000269",
+  "appointment_date": "2024-05-02",
+  "scheduled_time": "10:15:00",
+  "appointment_type": "Urgent Care",
+  "status": "Rescheduled",
+  "wait_time_minutes": 19.0,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "iOS",
+  "browser": "Safari",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-05-02 05:31:00"
+}

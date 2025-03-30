@@ -1,0 +1,18 @@
+{
+  "appointment_id": "dbb7bb17-fbe4-4632-a325-6fb5364b2de5",
+  "provider_id": "PROV0027",
+  "patient_id": "PAT000270",
+  "appointment_date": "2025-02-12",
+  "scheduled_time": "16:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 15.0,
+  "duration_minutes": 27.0,
+  "device_type": "Laptop",
+  "operating_system": "iOS",
+  "browser": "Edge",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-02-12 16:31:00"
+}

@@ -1,0 +1,15 @@
+{
+  "feedback_id": "3c6a82e7-1160-4174-95cb-3eb8de6e12dd",
+  "appointment_id": "370eb217-753a-476a-b3f6-83862e6e2da4",
+  "patient_id": "PAT000485",
+  "provider_id": "PROV0028",
+  "feedback_date": "2024-01-23",
+  "provider_rating": 5,
+  "ease_of_use_rating": 5,
+  "audio_quality_rating": 3,
+  "video_quality_rating": 4,
+  "overall_satisfaction": 2,
+  "would_recommend": false,
+  "comments": "I had trouble logging in and wasted time.",
+  "timestamp": "2024-01-23 00:00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "783708f3-42bf-47dc-b0bd-ee6ee898cc87",
+  "provider_id": "PROV0022",
+  "patient_id": "PAT000260",
+  "appointment_date": "2025-02-16",
+  "scheduled_time": "12:30:00",
+  "appointment_type": "Urgent Care",
+  "status": "Completed",
+  "wait_time_minutes": 18.0,
+  "duration_minutes": 54.0,
+  "device_type": "Tablet",
+  "operating_system": "iOS",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Browser Compatibility",
+  "timestamp": "2025-02-16 04:31:00"
+}

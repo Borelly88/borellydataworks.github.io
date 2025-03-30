@@ -1,0 +1,18 @@
+{
+  "appointment_id": "e3242b6d-46f5-46b7-9c38-ea2e1a24e678",
+  "provider_id": "PROV0023",
+  "patient_id": "PAT000169",
+  "appointment_date": "2024-10-24",
+  "scheduled_time": "17:45:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Rescheduled",
+  "wait_time_minutes": 25.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Windows",
+  "browser": "Edge",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Login Issues",
+  "timestamp": "2024-10-24 19:01:00"
+}

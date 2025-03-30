@@ -1,0 +1,18 @@
+{
+  "appointment_id": "bcd1599b-46a8-4aaf-b58e-18085a5be331",
+  "provider_id": "PROV0007",
+  "patient_id": "PAT000456",
+  "appointment_date": "2024-11-15",
+  "scheduled_time": "12:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Windows",
+  "browser": "Chrome",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-11-15 16:25:00"
+}

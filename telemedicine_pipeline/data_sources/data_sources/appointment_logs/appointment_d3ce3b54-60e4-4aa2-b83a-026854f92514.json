@@ -1,0 +1,18 @@
+{
+  "appointment_id": "d3ce3b54-60e4-4aa2-b83a-026854f92514",
+  "provider_id": "PROV0010",
+  "patient_id": "PAT000153",
+  "appointment_date": "2024-04-19",
+  "scheduled_time": "16:30:00",
+  "appointment_type": "Urgent Care",
+  "status": "Completed",
+  "wait_time_minutes": 17.0,
+  "duration_minutes": 34.0,
+  "device_type": "Desktop",
+  "operating_system": "Windows",
+  "browser": "Chrome",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-04-19 13:55:00"
+}

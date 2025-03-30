@@ -1,0 +1,18 @@
+{
+  "appointment_id": "cefbc478-55a8-43ee-8175-0943eff599b0",
+  "provider_id": "PROV0034",
+  "patient_id": "PAT000053",
+  "appointment_date": "2024-02-10",
+  "scheduled_time": "11:00:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 24.0,
+  "duration_minutes": 52.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Windows",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-02-10 11:12:00"
+}

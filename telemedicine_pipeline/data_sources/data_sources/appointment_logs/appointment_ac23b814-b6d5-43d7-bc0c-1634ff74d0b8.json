@@ -1,0 +1,18 @@
+{
+  "appointment_id": "ac23b814-b6d5-43d7-bc0c-1634ff74d0b8",
+  "provider_id": "PROV0029",
+  "patient_id": "PAT000202",
+  "appointment_date": "2025-02-23",
+  "scheduled_time": "12:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 13.0,
+  "duration_minutes": 21.0,
+  "device_type": "Tablet",
+  "operating_system": "macOS",
+  "browser": "Firefox",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2025-02-23 13:40:00"
+}

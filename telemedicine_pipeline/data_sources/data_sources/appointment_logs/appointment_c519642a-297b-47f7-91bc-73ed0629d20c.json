@@ -1,0 +1,18 @@
+{
+  "appointment_id": "c519642a-297b-47f7-91bc-73ed0629d20c",
+  "provider_id": "PROV0034",
+  "patient_id": "PAT000267",
+  "appointment_date": "2024-01-06",
+  "scheduled_time": "11:30:00",
+  "appointment_type": "Urgent Care",
+  "status": "Cancelled",
+  "wait_time_minutes": 2.0,
+  "duration_minutes": NaN,
+  "device_type": "Laptop",
+  "operating_system": "Android",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-01-06 14:38:00"
+}

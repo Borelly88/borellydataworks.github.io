@@ -1,0 +1,18 @@
+{
+  "appointment_id": "4a843132-a46f-458d-93f0-3099e646570e",
+  "provider_id": "PROV0035",
+  "patient_id": "PAT000132",
+  "appointment_date": "2025-02-14",
+  "scheduled_time": "15:15:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 6.0,
+  "duration_minutes": 28.0,
+  "device_type": "Tablet",
+  "operating_system": "macOS",
+  "browser": "Safari",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2025-02-14 08:46:00"
+}

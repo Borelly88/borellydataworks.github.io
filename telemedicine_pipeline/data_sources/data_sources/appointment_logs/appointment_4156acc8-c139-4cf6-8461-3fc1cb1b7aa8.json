@@ -1,0 +1,18 @@
+{
+  "appointment_id": "4156acc8-c139-4cf6-8461-3fc1cb1b7aa8",
+  "provider_id": "PROV0009",
+  "patient_id": "PAT000064",
+  "appointment_date": "2024-10-17",
+  "scheduled_time": "09:45:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 21.0,
+  "duration_minutes": 30.0,
+  "device_type": "Laptop",
+  "operating_system": "Windows",
+  "browser": "Firefox",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2024-10-17 04:52:00"
+}

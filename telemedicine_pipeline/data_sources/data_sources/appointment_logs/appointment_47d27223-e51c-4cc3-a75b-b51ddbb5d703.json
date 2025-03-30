@@ -1,0 +1,18 @@
+{
+  "appointment_id": "47d27223-e51c-4cc3-a75b-b51ddbb5d703",
+  "provider_id": "PROV0026",
+  "patient_id": "PAT000392",
+  "appointment_date": "2024-11-10",
+  "scheduled_time": "17:00:00",
+  "appointment_type": "Urgent Care",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-11-10 05:22:00"
+}

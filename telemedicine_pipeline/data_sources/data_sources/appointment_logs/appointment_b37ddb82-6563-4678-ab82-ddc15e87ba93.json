@@ -1,0 +1,18 @@
+{
+  "appointment_id": "b37ddb82-6563-4678-ab82-ddc15e87ba93",
+  "provider_id": "PROV0011",
+  "patient_id": "PAT000088",
+  "appointment_date": "2024-05-11",
+  "scheduled_time": "15:45:00",
+  "appointment_type": "Medication Review",
+  "status": "Completed",
+  "wait_time_minutes": 23.0,
+  "duration_minutes": 45.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Android",
+  "browser": "Edge",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Video Problems",
+  "timestamp": "2024-05-11 10:59:00"
+}

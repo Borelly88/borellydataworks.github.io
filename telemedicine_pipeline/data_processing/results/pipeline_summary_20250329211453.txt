@@ -1,0 +1,43 @@
+Pipeline Summary
+===============
+
+Start Time: 2025-03-29 21:14:52
+End Time: 2025-03-29 21:14:53
+Duration: 0.92 seconds
+Status: FAILED
+
+Components: 1/2 completed
+
+Component Details
+----------------
+
+Component: Data Transformation
+Status: SUCCESS
+Duration: 0.50 seconds
+Timestamp: 2025-03-29 21:14:52
+Output: Loading data...
+Appointment data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/appointment_logs/appointment_logs.csv
+Feedback data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/patient_feedback/patient_feedback.csv
+Provider data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/provider_data/providers.csv
+Patient data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/provider_data/patients.csv
+
+Transforming dimension tables...
+No ap...
+
+Component: Data Quality Checks
+Status: FAILED
+Duration: 0.43 seconds
+Timestamp: 2025-03-29 21:14:53
+Output: Starting data quality checks...
+
+Loading transformed data...
+
+Error: Traceback (most recent call last):
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 364, in <module>
+    main()
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 329, in main
+    data = load_transformed_data()
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 34, in load_transformed_data
+    data[file.replace('.csv', '')] = pd.read_csv(file_path)
+  File "/home/ubuntu/...
+

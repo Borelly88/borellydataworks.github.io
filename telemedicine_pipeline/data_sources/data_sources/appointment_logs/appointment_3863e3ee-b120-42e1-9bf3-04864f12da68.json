@@ -1,0 +1,18 @@
+{
+  "appointment_id": "3863e3ee-b120-42e1-9bf3-04864f12da68",
+  "provider_id": "PROV0006",
+  "patient_id": "PAT000408",
+  "appointment_date": "2024-11-04",
+  "scheduled_time": "10:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 9.0,
+  "duration_minutes": 38.0,
+  "device_type": "Desktop",
+  "operating_system": "macOS",
+  "browser": "Edge",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Login Issues",
+  "timestamp": "2024-11-04 23:35:00"
+}

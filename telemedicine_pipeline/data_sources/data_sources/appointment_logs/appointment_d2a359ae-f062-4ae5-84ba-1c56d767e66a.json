@@ -1,0 +1,18 @@
+{
+  "appointment_id": "d2a359ae-f062-4ae5-84ba-1c56d767e66a",
+  "provider_id": "PROV0002",
+  "patient_id": "PAT000306",
+  "appointment_date": "2024-01-18",
+  "scheduled_time": "13:00:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Rescheduled",
+  "wait_time_minutes": 23.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Android",
+  "browser": "Firefox",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-01-18 14:34:00"
+}

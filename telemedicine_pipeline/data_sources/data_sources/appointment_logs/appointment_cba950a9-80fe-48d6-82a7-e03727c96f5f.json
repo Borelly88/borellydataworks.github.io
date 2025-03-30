@@ -1,0 +1,18 @@
+{
+  "appointment_id": "cba950a9-80fe-48d6-82a7-e03727c96f5f",
+  "provider_id": "PROV0005",
+  "patient_id": "PAT000376",
+  "appointment_date": "2025-01-29",
+  "scheduled_time": "09:30:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Rescheduled",
+  "wait_time_minutes": 12.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "macOS",
+  "browser": "Edge",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Browser Compatibility",
+  "timestamp": "2025-01-29 04:38:00"
+}

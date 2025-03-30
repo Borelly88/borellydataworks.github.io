@@ -1,0 +1,18 @@
+{
+  "appointment_id": "361cd15f-a375-4256-95e1-39388d232566",
+  "provider_id": "PROV0027",
+  "patient_id": "PAT000014",
+  "appointment_date": "2024-05-15",
+  "scheduled_time": "09:45:00",
+  "appointment_type": "Medication Review",
+  "status": "Completed",
+  "wait_time_minutes": 16.0,
+  "duration_minutes": 26.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Windows",
+  "browser": "Firefox",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-05-15 23:40:00"
+}

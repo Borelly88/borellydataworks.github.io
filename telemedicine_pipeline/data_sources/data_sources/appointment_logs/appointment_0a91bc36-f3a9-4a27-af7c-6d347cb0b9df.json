@@ -1,0 +1,18 @@
+{
+  "appointment_id": "0a91bc36-f3a9-4a27-af7c-6d347cb0b9df",
+  "provider_id": "PROV0007",
+  "patient_id": "PAT000480",
+  "appointment_date": "2024-06-11",
+  "scheduled_time": "16:15:00",
+  "appointment_type": "Urgent Care",
+  "status": "Rescheduled",
+  "wait_time_minutes": 7.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Android",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-06-11 16:41:00"
+}

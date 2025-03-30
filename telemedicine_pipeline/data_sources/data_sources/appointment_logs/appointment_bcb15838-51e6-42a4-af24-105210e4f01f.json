@@ -1,0 +1,18 @@
+{
+  "appointment_id": "bcb15838-51e6-42a4-af24-105210e4f01f",
+  "provider_id": "PROV0021",
+  "patient_id": "PAT000142",
+  "appointment_date": "2024-05-25",
+  "scheduled_time": "11:15:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 25.0,
+  "duration_minutes": 10.0,
+  "device_type": "Desktop",
+  "operating_system": "macOS",
+  "browser": "Firefox",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-05-25 02:21:00"
+}

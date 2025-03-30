@@ -1,0 +1,18 @@
+{
+  "appointment_id": "a0a03b53-13bb-45f2-8659-0f39640d3052",
+  "provider_id": "PROV0010",
+  "patient_id": "PAT000220",
+  "appointment_date": "2025-01-25",
+  "scheduled_time": "13:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Cancelled",
+  "wait_time_minutes": 1.0,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "Linux",
+  "browser": "Edge",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-25 23:51:00"
+}

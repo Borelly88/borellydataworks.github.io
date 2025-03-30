@@ -1,0 +1,18 @@
+{
+  "appointment_id": "389e12a3-443a-4cdb-96e6-e3104466686b",
+  "provider_id": "PROV0046",
+  "patient_id": "PAT000077",
+  "appointment_date": "2025-01-01",
+  "scheduled_time": "08:30:00",
+  "appointment_type": "Follow-up",
+  "status": "Rescheduled",
+  "wait_time_minutes": 0.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Windows",
+  "browser": "Chrome",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-01 09:59:00"
+}

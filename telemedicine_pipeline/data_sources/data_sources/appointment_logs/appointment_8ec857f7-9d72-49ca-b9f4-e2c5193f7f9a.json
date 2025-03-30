@@ -1,0 +1,18 @@
+{
+  "appointment_id": "8ec857f7-9d72-49ca-b9f4-e2c5193f7f9a",
+  "provider_id": "PROV0014",
+  "patient_id": "PAT000065",
+  "appointment_date": "2024-06-21",
+  "scheduled_time": "12:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 16.0,
+  "duration_minutes": 38.0,
+  "device_type": "Desktop",
+  "operating_system": "Android",
+  "browser": "Safari",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-06-21 04:43:00"
+}

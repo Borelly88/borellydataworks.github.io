@@ -1,0 +1,18 @@
+{
+  "appointment_id": "7350655b-36ec-481b-9456-93191bc216fa",
+  "provider_id": "PROV0011",
+  "patient_id": "PAT000352",
+  "appointment_date": "2024-08-24",
+  "scheduled_time": "08:30:00",
+  "appointment_type": "Urgent Care",
+  "status": "Completed",
+  "wait_time_minutes": 3.0,
+  "duration_minutes": 57.0,
+  "device_type": "Laptop",
+  "operating_system": "Android",
+  "browser": "Edge",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2024-08-24 15:06:00"
+}

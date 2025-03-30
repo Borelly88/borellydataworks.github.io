@@ -1,0 +1,18 @@
+{
+  "appointment_id": "cbd2468c-df45-458a-9e58-e7f45044cf6d",
+  "provider_id": "PROV0006",
+  "patient_id": "PAT000339",
+  "appointment_date": "2024-08-23",
+  "scheduled_time": "17:00:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 22.0,
+  "duration_minutes": 56.0,
+  "device_type": "Desktop",
+  "operating_system": "iOS",
+  "browser": "Edge",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-08-23 01:46:00"
+}

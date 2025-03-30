@@ -1,0 +1,15 @@
+{
+  "feedback_id": "576cd215-ba9e-47fb-97fb-3c461985901f",
+  "appointment_id": "d60444da-2fa0-437e-9738-124b4cfba895",
+  "patient_id": "PAT000121",
+  "provider_id": "PROV0046",
+  "feedback_date": "2024-05-03",
+  "provider_rating": 4,
+  "ease_of_use_rating": 3,
+  "audio_quality_rating": 2,
+  "video_quality_rating": 4,
+  "overall_satisfaction": 2,
+  "would_recommend": false,
+  "comments": "The app kept crashing during my appointment.",
+  "timestamp": "2024-05-03 00:00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "a689ce6f-e0fd-4a08-97ad-a649a95c67ba",
+  "provider_id": "PROV0011",
+  "patient_id": "PAT000058",
+  "appointment_date": "2024-09-19",
+  "scheduled_time": "12:00:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 14.0,
+  "duration_minutes": 50.0,
+  "device_type": "Laptop",
+  "operating_system": "Linux",
+  "browser": "Edge",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-09-19 22:19:00"
+}

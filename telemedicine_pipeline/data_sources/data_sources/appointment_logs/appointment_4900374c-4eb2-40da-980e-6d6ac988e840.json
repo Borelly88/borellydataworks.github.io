@@ -1,0 +1,18 @@
+{
+  "appointment_id": "4900374c-4eb2-40da-980e-6d6ac988e840",
+  "provider_id": "PROV0010",
+  "patient_id": "PAT000033",
+  "appointment_date": "2024-11-08",
+  "scheduled_time": "16:15:00",
+  "appointment_type": "Urgent Care",
+  "status": "Completed",
+  "wait_time_minutes": 5.0,
+  "duration_minutes": 26.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Chrome",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-11-08 01:13:00"
+}

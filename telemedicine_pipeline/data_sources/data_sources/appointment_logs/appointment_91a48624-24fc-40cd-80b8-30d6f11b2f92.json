@@ -1,0 +1,18 @@
+{
+  "appointment_id": "91a48624-24fc-40cd-80b8-30d6f11b2f92",
+  "provider_id": "PROV0032",
+  "patient_id": "PAT000413",
+  "appointment_date": "2024-12-12",
+  "scheduled_time": "15:00:00",
+  "appointment_type": "Follow-up",
+  "status": "Cancelled",
+  "wait_time_minutes": 9.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Android",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Video Problems",
+  "timestamp": "2024-12-12 17:28:00"
+}

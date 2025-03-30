@@ -1,0 +1,18 @@
+{
+  "appointment_id": "01fe372e-dc05-4e15-8729-8132a2afc6f9",
+  "provider_id": "PROV0023",
+  "patient_id": "PAT000404",
+  "appointment_date": "2024-03-18",
+  "scheduled_time": "14:15:00",
+  "appointment_type": "Medication Review",
+  "status": "Completed",
+  "wait_time_minutes": 5.0,
+  "duration_minutes": 43.0,
+  "device_type": "Laptop",
+  "operating_system": "Linux",
+  "browser": "Edge",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-03-18 20:14:00"
+}

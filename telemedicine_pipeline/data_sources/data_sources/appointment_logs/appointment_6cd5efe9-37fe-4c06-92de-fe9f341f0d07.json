@@ -1,0 +1,18 @@
+{
+  "appointment_id": "6cd5efe9-37fe-4c06-92de-fe9f341f0d07",
+  "provider_id": "PROV0029",
+  "patient_id": "PAT000193",
+  "appointment_date": "2024-06-28",
+  "scheduled_time": "10:45:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Cancelled",
+  "wait_time_minutes": 30.0,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "macOS",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-06-28 05:58:00"
+}

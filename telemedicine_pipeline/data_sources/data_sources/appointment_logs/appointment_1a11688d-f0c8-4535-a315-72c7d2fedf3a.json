@@ -1,0 +1,18 @@
+{
+  "appointment_id": "1a11688d-f0c8-4535-a315-72c7d2fedf3a",
+  "provider_id": "PROV0027",
+  "patient_id": "PAT000269",
+  "appointment_date": "2025-01-22",
+  "scheduled_time": "17:45:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 30.0,
+  "duration_minutes": 10.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Android",
+  "browser": "Edge",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-22 15:45:00"
+}

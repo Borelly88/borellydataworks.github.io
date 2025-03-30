@@ -1,0 +1,18 @@
+{
+  "appointment_id": "fdde7130-6d2a-4908-9305-b2c636f2a693",
+  "provider_id": "PROV0046",
+  "patient_id": "PAT000116",
+  "appointment_date": "2025-01-15",
+  "scheduled_time": "10:15:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 27.0,
+  "duration_minutes": 29.0,
+  "device_type": "Desktop",
+  "operating_system": "macOS",
+  "browser": "Edge",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-15 16:30:00"
+}

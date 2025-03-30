@@ -1,0 +1,18 @@
+{
+  "appointment_id": "0633ac92-b42a-40d8-b284-bd7c4fcfd510",
+  "provider_id": "PROV0027",
+  "patient_id": "PAT000030",
+  "appointment_date": "2025-03-25",
+  "scheduled_time": "17:00:00",
+  "appointment_type": "Urgent Care",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "macOS",
+  "browser": "Safari",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-03-25 08:13:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "5dda1e02-4643-40f8-96de-e4a1ce561c3d",
+  "provider_id": "PROV0043",
+  "patient_id": "PAT000058",
+  "appointment_date": "2024-10-03",
+  "scheduled_time": "12:00:00",
+  "appointment_type": "Urgent Care",
+  "status": "Rescheduled",
+  "wait_time_minutes": 11.0,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Linux",
+  "browser": "Edge",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-10-03 18:28:00"
+}

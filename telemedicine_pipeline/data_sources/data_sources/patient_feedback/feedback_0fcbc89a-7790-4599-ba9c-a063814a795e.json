@@ -1,0 +1,15 @@
+{
+  "feedback_id": "0fcbc89a-7790-4599-ba9c-a063814a795e",
+  "appointment_id": "8d08e4f7-3920-4b3d-a34f-1a1b51a15f87",
+  "patient_id": "PAT000285",
+  "provider_id": "PROV0029",
+  "feedback_date": "2024-02-18",
+  "provider_rating": 4,
+  "ease_of_use_rating": 3,
+  "audio_quality_rating": 2,
+  "video_quality_rating": 1,
+  "overall_satisfaction": 2,
+  "would_recommend": false,
+  "comments": "The doctor seemed rushed and didn't address all my concerns.",
+  "timestamp": "2024-02-18 00:00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "appointment_id": "e0b52963-7570-4151-a8bd-f401903265af",
+  "provider_id": "PROV0027",
+  "patient_id": "PAT000243",
+  "appointment_date": "2025-02-15",
+  "scheduled_time": "13:30:00",
+  "appointment_type": "Specialist Referral",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "Windows",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-02-15 20:04:00"
+}

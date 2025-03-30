@@ -1,0 +1,18 @@
+{
+  "appointment_id": "50238ca2-edf7-4fea-a0d1-03344dc77ac2",
+  "provider_id": "PROV0035",
+  "patient_id": "PAT000467",
+  "appointment_date": "2024-06-16",
+  "scheduled_time": "09:30:00",
+  "appointment_type": "Medication Review",
+  "status": "Completed",
+  "wait_time_minutes": 5.0,
+  "duration_minutes": 19.0,
+  "device_type": "Tablet",
+  "operating_system": "Linux",
+  "browser": "Safari",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-06-16 21:48:00"
+}

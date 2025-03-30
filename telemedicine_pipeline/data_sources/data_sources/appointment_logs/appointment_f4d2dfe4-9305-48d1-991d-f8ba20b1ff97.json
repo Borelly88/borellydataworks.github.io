@@ -1,0 +1,18 @@
+{
+  "appointment_id": "f4d2dfe4-9305-48d1-991d-f8ba20b1ff97",
+  "provider_id": "PROV0018",
+  "patient_id": "PAT000067",
+  "appointment_date": "2024-10-22",
+  "scheduled_time": "08:30:00",
+  "appointment_type": "Medication Review",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Firefox",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "Video Problems",
+  "timestamp": "2024-10-22 23:35:00"
+}

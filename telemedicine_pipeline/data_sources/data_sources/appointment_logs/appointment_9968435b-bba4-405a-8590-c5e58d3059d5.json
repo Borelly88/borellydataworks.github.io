@@ -1,0 +1,18 @@
+{
+  "appointment_id": "9968435b-bba4-405a-8590-c5e58d3059d5",
+  "provider_id": "PROV0020",
+  "patient_id": "PAT000097",
+  "appointment_date": "2025-03-07",
+  "scheduled_time": "08:00:00",
+  "appointment_type": "Follow-up",
+  "status": "Cancelled",
+  "wait_time_minutes": 22.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "iOS",
+  "browser": "Firefox",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2025-03-07 04:05:00"
+}

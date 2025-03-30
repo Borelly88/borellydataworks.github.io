@@ -1,0 +1,18 @@
+{
+  "appointment_id": "4c99d2d3-5875-48be-932d-2d9830849a43",
+  "provider_id": "PROV0043",
+  "patient_id": "PAT000181",
+  "appointment_date": "2024-12-23",
+  "scheduled_time": "17:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 1.0,
+  "duration_minutes": 50.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Android",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-12-23 06:20:00"
+}

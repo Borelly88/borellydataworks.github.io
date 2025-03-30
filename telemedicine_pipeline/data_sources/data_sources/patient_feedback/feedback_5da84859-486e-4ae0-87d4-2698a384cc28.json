@@ -1,0 +1,15 @@
+{
+  "feedback_id": "5da84859-486e-4ae0-87d4-2698a384cc28",
+  "appointment_id": "d5c46c14-919e-441f-8670-06afe29e0344",
+  "patient_id": "PAT000112",
+  "provider_id": "PROV0018",
+  "feedback_date": "2024-04-01",
+  "provider_rating": 3,
+  "ease_of_use_rating": 1,
+  "audio_quality_rating": 3,
+  "video_quality_rating": 5,
+  "overall_satisfaction": 5,
+  "would_recommend": true,
+  "comments": "The doctor was very helpful and professional.",
+  "timestamp": "2024-04-01 00:00:00"
+}

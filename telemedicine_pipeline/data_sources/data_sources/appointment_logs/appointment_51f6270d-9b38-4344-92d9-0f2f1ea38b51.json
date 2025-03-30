@@ -1,0 +1,18 @@
+{
+  "appointment_id": "51f6270d-9b38-4344-92d9-0f2f1ea38b51",
+  "provider_id": "PROV0004",
+  "patient_id": "PAT000500",
+  "appointment_date": "2024-01-24",
+  "scheduled_time": "09:30:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 21.0,
+  "duration_minutes": 58.0,
+  "device_type": "Laptop",
+  "operating_system": "Linux",
+  "browser": "Chrome",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-01-24 12:09:00"
+}

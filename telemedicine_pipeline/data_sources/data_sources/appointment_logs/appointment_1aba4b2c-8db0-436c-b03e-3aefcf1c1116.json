@@ -1,0 +1,18 @@
+{
+  "appointment_id": "1aba4b2c-8db0-436c-b03e-3aefcf1c1116",
+  "provider_id": "PROV0043",
+  "patient_id": "PAT000024",
+  "appointment_date": "2024-07-08",
+  "scheduled_time": "10:45:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 7.0,
+  "duration_minutes": 20.0,
+  "device_type": "Tablet",
+  "operating_system": "Windows",
+  "browser": "Firefox",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-07-08 09:20:00"
+}

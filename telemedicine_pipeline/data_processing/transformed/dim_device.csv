@@ -1,0 +1,5 @@
+device_key,device_type,is_mobile
+1,Mobile Phone,True
+2,Tablet,True
+3,Laptop,False
+4,Desktop,False

@@ -1,0 +1,161 @@
+2025-03-29 21:13:48,423 - telemedicine_pipeline - INFO - Starting data processing pipeline
+2025-03-29 21:13:48,424 - telemedicine_pipeline - INFO - Starting component: Data Transformation
+2025-03-29 21:13:48,424 - telemedicine_pipeline - INFO - Description: Transform raw data into dimensional model
+2025-03-29 21:13:48,904 - telemedicine_pipeline - INFO - Component Data Transformation completed successfully
+2025-03-29 21:13:48,904 - telemedicine_pipeline - INFO - Output: Loading data...
+Directory not found: /home/ubuntu/telemedicine_pipeline/data_ingestion/processed/appointments
+Directory not found: /home/ubuntu/telemedicine_pipeline/data_ingestion/processed/events
+Directory not found: /home/ubuntu/telemedicine_pipeline/data_ingestion/processed/feedback
+Original data source not found: /home/ubuntu/telemedicine_pipeline/data_sources/patient_feedback/patient_feedback.csv
+Provider data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/provider_data/providers.csv
+Patient data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/provider_data/patients.csv
+
+Transforming dimension tables...
+No appointment data available for date dimension
+No appointment data available for time dimension
+No provider data available
+No patient data available
+
+Transforming fact tables...
+No appointment data available
+No feedback data available
+
+Saving transformed data...
+
+Data transformation complete!
+Transformed data saved to /home/ubuntu/telemedicine_pipeline/data_processing/transformed
+
+2025-03-29 21:13:48,904 - telemedicine_pipeline - INFO - Starting component: Data Quality Checks
+2025-03-29 21:13:48,904 - telemedicine_pipeline - INFO - Description: Perform data quality checks on transformed data
+2025-03-29 21:13:49,341 - telemedicine_pipeline - ERROR - Component Data Quality Checks failed with return code 1
+2025-03-29 21:13:49,341 - telemedicine_pipeline - ERROR - Error: Traceback (most recent call last):
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 364, in <module>
+    main()
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 329, in main
+    data = load_transformed_data()
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 34, in load_transformed_data
+    data[file.replace('.csv', '')] = pd.read_csv(file_path)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+
+2025-03-29 21:13:49,341 - telemedicine_pipeline - ERROR - Pipeline stopped due to component failure: Data Quality Checks
+2025-03-29 21:13:49,342 - telemedicine_pipeline - INFO - Pipeline completed with status: FAILED
+2025-03-29 21:13:49,342 - telemedicine_pipeline - INFO - Summary saved to: /home/ubuntu/telemedicine_pipeline/data_processing/results/pipeline_summary_20250329211349.txt
+2025-03-29 21:14:52,409 - telemedicine_pipeline - INFO - Starting data processing pipeline
+2025-03-29 21:14:52,410 - telemedicine_pipeline - INFO - Starting component: Data Transformation
+2025-03-29 21:14:52,410 - telemedicine_pipeline - INFO - Description: Transform raw data into dimensional model
+2025-03-29 21:14:52,905 - telemedicine_pipeline - INFO - Component Data Transformation completed successfully
+2025-03-29 21:14:52,905 - telemedicine_pipeline - INFO - Output: Loading data...
+Appointment data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/appointment_logs/appointment_logs.csv
+Feedback data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/patient_feedback/patient_feedback.csv
+Provider data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/provider_data/providers.csv
+Patient data file not found: /home/ubuntu/telemedicine_pipeline/data_sources/provider_data/patients.csv
+
+Transforming dimension tables...
+No appointment data available for date dimension
+No appointment data available for time dimension
+No provider data available
+No patient data available
+
+Transforming fact tables...
+No appointment data available
+No feedback data available
+
+Saving transformed data...
+
+Data transformation complete!
+Transformed data saved to /home/ubuntu/telemedicine_pipeline/data_processing/transformed
+
+2025-03-29 21:14:52,905 - telemedicine_pipeline - INFO - Starting component: Data Quality Checks
+2025-03-29 21:14:52,905 - telemedicine_pipeline - INFO - Description: Perform data quality checks on transformed data
+2025-03-29 21:14:53,333 - telemedicine_pipeline - ERROR - Component Data Quality Checks failed with return code 1
+2025-03-29 21:14:53,333 - telemedicine_pipeline - ERROR - Error: Traceback (most recent call last):
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 364, in <module>
+    main()
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 329, in main
+    data = load_transformed_data()
+  File "/home/ubuntu/telemedicine_pipeline/data_processing/etl/data_quality_checks.py", line 34, in load_transformed_data
+    data[file.replace('.csv', '')] = pd.read_csv(file_path)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+
+2025-03-29 21:14:53,333 - telemedicine_pipeline - ERROR - Pipeline stopped due to component failure: Data Quality Checks
+2025-03-29 21:14:53,334 - telemedicine_pipeline - INFO - Pipeline completed with status: FAILED
+2025-03-29 21:14:53,334 - telemedicine_pipeline - INFO - Summary saved to: /home/ubuntu/telemedicine_pipeline/data_processing/results/pipeline_summary_20250329211453.txt
+2025-03-29 21:16:38,268 - telemedicine_pipeline - INFO - Starting data processing pipeline
+2025-03-29 21:16:38,268 - telemedicine_pipeline - INFO - Starting component: Data Transformation
+2025-03-29 21:16:38,268 - telemedicine_pipeline - INFO - Description: Transform raw data into dimensional model
+2025-03-29 21:16:38,832 - telemedicine_pipeline - INFO - Component Data Transformation completed successfully
+2025-03-29 21:16:38,833 - telemedicine_pipeline - INFO - Output: Loading data...
+Loaded 2000 appointments from original data source
+Loaded 1497 feedback records from original data source
+Loaded 50 providers from original data source
+Loaded 500 patients from original data source
+
+Transforming dimension tables...
+Created date dimension with 514 rows
+Created time dimension with 96 rows
+Created provider dimension with 50 rows
+Created patient dimension with 500 rows
+
+Transforming fact tables...
+Created appointment fact table with 2000 rows
+Created feedback fact table with 1497 rows
+
+Saving transformed data...
+
+Data transformation complete!
+Transformed data saved to /home/ubuntu/telemedicine_pipeline/data_processing/transformed
+
+2025-03-29 21:16:38,833 - telemedicine_pipeline - INFO - Starting component: Data Quality Checks
+2025-03-29 21:16:38,833 - telemedicine_pipeline - INFO - Description: Perform data quality checks on transformed data
+2025-03-29 21:16:39,319 - telemedicine_pipeline - INFO - Component Data Quality Checks completed successfully
+2025-03-29 21:16:39,319 - telemedicine_pipeline - INFO - Output: Starting data quality checks...
+
+Loading transformed data...
+Loaded dim_date.csv with 514 rows
+Loaded dim_time.csv with 96 rows
+Loaded dim_provider.csv with 50 rows
+Loaded dim_patient.csv with 500 rows
+Loaded dim_status.csv with 4 rows
+Loaded dim_device.csv with 4 rows
+Loaded fact_appointment.csv with 2000 rows
+Loaded fact_feedback.csv with 1497 rows
+
+Checking primary keys...
+
+Checking foreign keys...
+
+Checking data quality...
+
+Generating summary report...
+
+Data quality check complete! Summary saved to /home/ubuntu/telemedicine_pipeline/data_processing/quality_checks/quality_check_summary_20250329211639.json
+
+Summary of data quality checks:
+Primary key checks: 0 tables with issues out of 8
+Foreign key checks: 0 relationships with issues out of 10
+Data quality checks: 0 checks with issues out of 11
+
+2025-03-29 21:16:39,320 - telemedicine_pipeline - INFO - Pipeline completed with status: SUCCESS
+2025-03-29 21:16:39,320 - telemedicine_pipeline - INFO - Summary saved to: /home/ubuntu/telemedicine_pipeline/data_processing/results/pipeline_summary_20250329211639.txt

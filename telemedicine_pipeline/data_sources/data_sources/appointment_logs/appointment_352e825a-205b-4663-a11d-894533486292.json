@@ -1,0 +1,18 @@
+{
+  "appointment_id": "352e825a-205b-4663-a11d-894533486292",
+  "provider_id": "PROV0026",
+  "patient_id": "PAT000222",
+  "appointment_date": "2024-12-02",
+  "scheduled_time": "15:45:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Cancelled",
+  "wait_time_minutes": 5.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Windows",
+  "browser": "Firefox",
+  "connection_quality": "Excellent",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-12-02 14:23:00"
+}

@@ -1,0 +1,15 @@
+{
+  "feedback_id": "5fa8ce7f-8ea7-4843-aba9-65dcf97653c0",
+  "appointment_id": "96484afa-2098-4849-bf1b-1c920c5e1c4c",
+  "patient_id": "PAT000007",
+  "provider_id": "PROV0025",
+  "feedback_date": "2024-10-24",
+  "provider_rating": 4,
+  "ease_of_use_rating": 4,
+  "audio_quality_rating": 4,
+  "video_quality_rating": 1,
+  "overall_satisfaction": 2,
+  "would_recommend": false,
+  "comments": "The connection was poor and made it difficult to communicate.",
+  "timestamp": "2024-10-24 00:00:00"
+}

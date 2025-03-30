@@ -1,0 +1,18 @@
+{
+  "appointment_id": "341324f2-c43a-4ae8-b556-ce26595f7bd3",
+  "provider_id": "PROV0020",
+  "patient_id": "PAT000053",
+  "appointment_date": "2025-01-15",
+  "scheduled_time": "10:45:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Cancelled",
+  "wait_time_minutes": 2.0,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "iOS",
+  "browser": "Firefox",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-15 22:56:00"
+}

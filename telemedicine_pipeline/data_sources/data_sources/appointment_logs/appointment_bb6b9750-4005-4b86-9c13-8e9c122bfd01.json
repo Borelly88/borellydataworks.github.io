@@ -1,0 +1,18 @@
+{
+  "appointment_id": "bb6b9750-4005-4b86-9c13-8e9c122bfd01",
+  "provider_id": "PROV0037",
+  "patient_id": "PAT000120",
+  "appointment_date": "2025-02-28",
+  "scheduled_time": "09:15:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 1.0,
+  "duration_minutes": 35.0,
+  "device_type": "Laptop",
+  "operating_system": "macOS",
+  "browser": "Edge",
+  "connection_quality": "Poor",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-02-28 05:29:00"
+}

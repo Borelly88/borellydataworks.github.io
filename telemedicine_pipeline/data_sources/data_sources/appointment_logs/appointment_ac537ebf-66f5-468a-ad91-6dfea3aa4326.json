@@ -1,0 +1,18 @@
+{
+  "appointment_id": "ac537ebf-66f5-468a-ad91-6dfea3aa4326",
+  "provider_id": "PROV0030",
+  "patient_id": "PAT000331",
+  "appointment_date": "2024-06-22",
+  "scheduled_time": "17:30:00",
+  "appointment_type": "Urgent Care",
+  "status": "Cancelled",
+  "wait_time_minutes": 23.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Linux",
+  "browser": "Edge",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2024-06-22 14:30:00"
+}

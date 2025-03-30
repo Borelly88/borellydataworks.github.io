@@ -1,0 +1,18 @@
+{
+  "appointment_id": "e1f68916-bf8a-4ed1-a8db-b05d426d357c",
+  "provider_id": "PROV0008",
+  "patient_id": "PAT000308",
+  "appointment_date": "2024-04-01",
+  "scheduled_time": "16:30:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 8.0,
+  "duration_minutes": 28.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "Windows",
+  "browser": "Edge",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2024-04-01 06:30:00"
+}

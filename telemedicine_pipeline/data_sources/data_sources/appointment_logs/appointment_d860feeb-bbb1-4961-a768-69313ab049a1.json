@@ -1,0 +1,18 @@
+{
+  "appointment_id": "d860feeb-bbb1-4961-a768-69313ab049a1",
+  "provider_id": "PROV0050",
+  "patient_id": "PAT000350",
+  "appointment_date": "2024-01-03",
+  "scheduled_time": "16:30:00",
+  "appointment_type": "Follow-up",
+  "status": "Completed",
+  "wait_time_minutes": 3.0,
+  "duration_minutes": 57.0,
+  "device_type": "Desktop",
+  "operating_system": "Linux",
+  "browser": "Firefox",
+  "connection_quality": "Excellent",
+  "had_technical_issues": true,
+  "technical_issue_type": "App Crash",
+  "timestamp": "2024-01-03 03:43:00"
+}

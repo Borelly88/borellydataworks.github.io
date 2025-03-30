@@ -1,0 +1,18 @@
+{
+  "appointment_id": "88ae9b6b-5277-48d0-8434-d80753c10b2e",
+  "provider_id": "PROV0004",
+  "patient_id": "PAT000440",
+  "appointment_date": "2024-02-14",
+  "scheduled_time": "17:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "macOS",
+  "browser": "Firefox",
+  "connection_quality": "Fair",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-02-14 04:44:00"
+}

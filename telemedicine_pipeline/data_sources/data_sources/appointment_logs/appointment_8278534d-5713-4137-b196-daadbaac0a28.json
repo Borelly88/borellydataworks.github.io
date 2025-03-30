@@ -1,0 +1,18 @@
+{
+  "appointment_id": "8278534d-5713-4137-b196-daadbaac0a28",
+  "provider_id": "PROV0050",
+  "patient_id": "PAT000323",
+  "appointment_date": "2024-04-04",
+  "scheduled_time": "17:30:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 8.0,
+  "duration_minutes": 29.0,
+  "device_type": "Laptop",
+  "operating_system": "Linux",
+  "browser": "Firefox",
+  "connection_quality": "Poor",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2024-04-04 03:56:00"
+}

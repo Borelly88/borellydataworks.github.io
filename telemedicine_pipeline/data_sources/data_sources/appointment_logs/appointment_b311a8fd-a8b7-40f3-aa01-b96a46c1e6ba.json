@@ -1,0 +1,18 @@
+{
+  "appointment_id": "b311a8fd-a8b7-40f3-aa01-b96a46c1e6ba",
+  "provider_id": "PROV0038",
+  "patient_id": "PAT000192",
+  "appointment_date": "2024-11-01",
+  "scheduled_time": "13:15:00",
+  "appointment_type": "Specialist Referral",
+  "status": "Completed",
+  "wait_time_minutes": 10.0,
+  "duration_minutes": 11.0,
+  "device_type": "Laptop",
+  "operating_system": "macOS",
+  "browser": "Firefox",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Video Problems",
+  "timestamp": "2024-11-01 13:03:00"
+}

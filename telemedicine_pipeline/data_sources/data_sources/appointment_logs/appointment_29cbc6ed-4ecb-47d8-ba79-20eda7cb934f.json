@@ -1,0 +1,18 @@
+{
+  "appointment_id": "29cbc6ed-4ecb-47d8-ba79-20eda7cb934f",
+  "provider_id": "PROV0025",
+  "patient_id": "PAT000316",
+  "appointment_date": "2024-10-13",
+  "scheduled_time": "08:15:00",
+  "appointment_type": "Medication Review",
+  "status": "Completed",
+  "wait_time_minutes": 8.0,
+  "duration_minutes": 50.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "macOS",
+  "browser": "Edge",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Audio Problems",
+  "timestamp": "2024-10-13 09:01:00"
+}

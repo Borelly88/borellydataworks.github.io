@@ -1,0 +1,18 @@
+{
+  "appointment_id": "8e46a3a5-68e5-4d7f-b05b-f5d029059c2c",
+  "provider_id": "PROV0046",
+  "patient_id": "PAT000041",
+  "appointment_date": "2024-03-05",
+  "scheduled_time": "08:15:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 5.0,
+  "duration_minutes": 37.0,
+  "device_type": "Tablet",
+  "operating_system": "iOS",
+  "browser": "Edge",
+  "connection_quality": "Fair",
+  "had_technical_issues": true,
+  "technical_issue_type": "Login Issues",
+  "timestamp": "2024-03-05 17:40:00"
+}

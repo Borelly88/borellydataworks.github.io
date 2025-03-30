@@ -1,0 +1,18 @@
+{
+  "appointment_id": "116d87ff-7366-4ba3-a01e-65188c6185bd",
+  "provider_id": "PROV0020",
+  "patient_id": "PAT000185",
+  "appointment_date": "2024-01-20",
+  "scheduled_time": "16:00:00",
+  "appointment_type": "Medication Review",
+  "status": "Rescheduled",
+  "wait_time_minutes": 23.0,
+  "duration_minutes": NaN,
+  "device_type": "Desktop",
+  "operating_system": "Linux",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2024-01-20 08:52:00"
+}

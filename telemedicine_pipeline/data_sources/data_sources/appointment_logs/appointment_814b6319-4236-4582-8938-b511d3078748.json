@@ -1,0 +1,18 @@
+{
+  "appointment_id": "814b6319-4236-4582-8938-b511d3078748",
+  "provider_id": "PROV0036",
+  "patient_id": "PAT000419",
+  "appointment_date": "2025-01-25",
+  "scheduled_time": "16:30:00",
+  "appointment_type": "Specialist Referral",
+  "status": "No-show",
+  "wait_time_minutes": NaN,
+  "duration_minutes": NaN,
+  "device_type": "Tablet",
+  "operating_system": "Windows",
+  "browser": "Chrome",
+  "connection_quality": "Good",
+  "had_technical_issues": false,
+  "technical_issue_type": null,
+  "timestamp": "2025-01-25 18:22:00"
+}

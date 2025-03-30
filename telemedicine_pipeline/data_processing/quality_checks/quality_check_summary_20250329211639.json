@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-03-29 21:16:39",
+  "primary_key_checks": {
+    "tables_checked": 8,
+    "tables_with_issues": 0,
+    "total_duplicate_keys": 0,
+    "details": {
+      "dim_date": {
+        "has_duplicates": false,
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      },
+      "dim_time": {
+        "has_duplicates": false,
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      },
+      "dim_provider": {
+        "has_duplicates": false,
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      },
+      "dim_patient": {
+        "has_duplicates": false,
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      },
+      "dim_status": {
+        "has_duplicates": false,
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      },
+      "dim_device": {
+        "has_duplicates": false,
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      },
+      "fact_appointment": {
+        "has_duplicates": false,
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      },
+      "fact_feedback": {
+        "has_duplicates": false,
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      }
+    }
+  },
+  "foreign_key_checks": {
+    "relationships_checked": 10,
+    "relationships_with_issues": 0,
+    "total_invalid_keys": 0,
+    "details": {
+      "appointment_provider_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_keys": []
+      },
+      "appointment_patient_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_keys": []
+      },
+      "appointment_date_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_ids": []
+      },
+      "appointment_time_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_ids": []
+      },
+      "appointment_status_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_keys": []
+      },
+      "appointment_device_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_keys": []
+      },
+      "feedback_provider_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_keys": []
+      },
+      "feedback_patient_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_keys": []
+      },
+      "feedback_date_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_ids": []
+      },
+      "feedback_appointment_fk": {
+        "has_invalid": false,
+        "invalid_count": 0,
+        "invalid_ids": []
+      }
+    }
+  },
+  "data_quality_checks": {
+    "checks_performed": 11,
+    "checks_with_issues": 0,
+    "total_quality_issues": 0,
+    "details": {
+      "negative_wait_times": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_ids": []
+      },
+      "negative_durations": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_ids": []
+      },
+      "missing_appointment_id": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_rows": 0
+      },
+      "missing_date_id": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_rows": 0
+      },
+      "missing_status_key": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_rows": 0
+      },
+      "invalid_provider_rating": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_ids": []
+      },
+      "invalid_ease_of_use_rating": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_ids": []
+      },
+      "invalid_audio_quality_rating": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_ids": []
+      },
+      "invalid_video_quality_rating": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_ids": []
+      },
+      "invalid_overall_satisfaction": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_ids": []
+      },
+      "missing_feedback_id": {
+        "has_issues": false,
+        "issue_count": 0,
+        "affected_rows": 0
+      }
+    }
+  }
+}

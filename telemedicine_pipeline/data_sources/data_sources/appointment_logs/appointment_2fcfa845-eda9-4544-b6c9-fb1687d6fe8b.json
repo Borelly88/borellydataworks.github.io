@@ -1,0 +1,18 @@
+{
+  "appointment_id": "2fcfa845-eda9-4544-b6c9-fb1687d6fe8b",
+  "provider_id": "PROV0016",
+  "patient_id": "PAT000011",
+  "appointment_date": "2024-10-26",
+  "scheduled_time": "17:00:00",
+  "appointment_type": "Initial Consultation",
+  "status": "Completed",
+  "wait_time_minutes": 18.0,
+  "duration_minutes": 41.0,
+  "device_type": "Mobile Phone",
+  "operating_system": "iOS",
+  "browser": "Safari",
+  "connection_quality": "Good",
+  "had_technical_issues": true,
+  "technical_issue_type": "Connection Lost",
+  "timestamp": "2024-10-26 01:35:00"
+}

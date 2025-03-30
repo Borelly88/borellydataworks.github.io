@@ -1,0 +1,5 @@
+status_key,status,is_successful
+1,Completed,True
+2,Cancelled,False
+3,No-show,False
+4,Rescheduled,False
